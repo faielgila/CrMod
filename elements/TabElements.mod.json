@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "CrMod Elements",
+    "icon": {
+      "value": "CUSTOM:ElemAe"
+    },
+    "showSearch": true
+  }
+}

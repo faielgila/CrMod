@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "crmod:ingoturac"
+    },
+    "title": {
+      "translate": "advancements.advurac.title"
+    },
+    "description": {
+      "translate": "advancements.advurac.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advurac": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "crmod:advblaze"
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "blazeaxe",
+    "customModelName": "Normal",
+    "name": "Blaze Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:TabTools"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 4,
+    "efficiency": 7.0,
+    "attackSpeed": 2.8,
+    "enchantability": 10,
+    "damageVsEntity": 4.5,
+    "usageCount": 1500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "crmod:platestee"
+    },
+    "2": {
+      "item": "crmod:lithiumconnector"
+    },
+    "3": {
+      "item": "crmod:platestee"
+    },
+    "4": {
+      "item": "crmod:carnotite"
+    },
+    "5": {
+      "item": "crmod:platestee"
+    },
+    "6": {
+      "item": "crmod:lithiumconnector"
+    },
+    "7": {
+      "item": "crmod:platestee"
+    }
+  },
+  "result": {
+    "item": "crmod:coreatomic",
+    "count": 1
+  }
+}

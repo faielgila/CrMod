@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "crmod:carnotite"
+    },
+    "title": {
+      "translate": "advancements.advcarnotite.title"
+    },
+    "description": {
+      "translate": "advancements.advcarnotite.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advcarnotite": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "crmod:advalemonium"
+}

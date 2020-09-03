@@ -1,0 +1,25 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "steelpickaxe",
+    "customModelName": "Normal",
+    "name": "Steel Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:TabTools"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 3,
+    "efficiency": 8.0,
+    "attackSpeed": 2.8,
+    "enchantability": 16,
+    "damageVsEntity": 6.0,
+    "usageCount": 500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "crmod:platelead"
+    },
+    "1": {
+      "item": "minecraft:hopper"
+    },
+    "2": {
+      "item": "crmod:platelead"
+    },
+    "3": {
+      "item": "crmod:platelead"
+    },
+    "4": {
+      "item": "crmod:coreatomic"
+    },
+    "5": {
+      "item": "crmod:platelead"
+    },
+    "6": {
+      "item": "crmod:platelead"
+    },
+    "7": {
+      "item": "crmod:blocklead"
+    },
+    "8": {
+      "item": "crmod:platelead"
+    }
+  },
+  "result": {
+    "item": "crmod:machsplitter",
+    "count": 1
+  }
+}

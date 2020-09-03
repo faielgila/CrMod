@@ -1,0 +1,42 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "crmod:ingoturac"
+    },
+    "1": {
+      "item": "crmod:ingoturac"
+    },
+    "2": {
+      "item": "crmod:ingoturac"
+    },
+    "3": {
+      "item": "crmod:ingoturac"
+    },
+    "4": {
+      "item": "crmod:ingoturac"
+    },
+    "5": {
+      "item": "crmod:ingoturac"
+    },
+    "6": {
+      "item": "crmod:ingoturac"
+    },
+    "7": {
+      "item": "crmod:ingoturac"
+    },
+    "8": {
+      "item": "crmod:ingoturac"
+    }
+  },
+  "result": {
+    "item": "crmod:blockurac",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "crmod:crystalpyrt"
+    },
+    "1": {
+      "item": "crmod:crystalpyrt"
+    },
+    "2": {
+      "item": "crmod:crystalpyrt"
+    },
+    "3": {
+      "item": "crmod:crystalpyrt"
+    },
+    "4": {
+      "item": "crmod:crystalpyrt"
+    },
+    "5": {
+      "item": "crmod:crystalpyrt"
+    },
+    "6": {
+      "item": "crmod:crystalpyrt"
+    },
+    "7": {
+      "item": "crmod:crystalpyrt"
+    },
+    "8": {
+      "item": "crmod:crystalpyrt"
+    }
+  },
+  "result": {
+    "item": "crmod:blockpyrt",
+    "count": 1
+  }
+}

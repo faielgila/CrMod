@@ -1,0 +1,26 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "crmod:ingoturaz"
+    },
+    "1": {
+      "item": "crmod:ingoturaz"
+    },
+    "2": {
+      "item": "crmod:ingoturaz"
+    },
+    "3": {
+      "item": "crmod:ingoturaz"
+    }
+  },
+  "result": {
+    "item": "crmod:blockuraz",
+    "count": 1
+  }
+}

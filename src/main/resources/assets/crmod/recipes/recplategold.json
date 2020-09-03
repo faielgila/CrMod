@@ -1,0 +1,16 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crmod:hammeriron"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "crmod:plategold",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "crmod:ingotblaz"
+    },
+    "1": {
+      "item": "crmod:ingotblaz"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "crmod:ingotblaz"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "crmod:axeblaz",
+    "count": 1
+  }
+}

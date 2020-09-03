@@ -1,0 +1,51 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IngotUraz"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IngotUraz"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SwordUraz"
+    },
+    "smeltingInputStack": {
+      "value": ""
+    },
+    "smeltingReturnStack": {
+      "value": ""
+    },
+    "name": "recswordurazr",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "4": {
+      "item": "minecraft:blaze_rod"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "crmod:hammeriron",
+    "count": 1
+  }
+}

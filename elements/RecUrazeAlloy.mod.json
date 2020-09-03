@@ -1,0 +1,51 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DustUrac"
+      },
+      {
+        "value": "CUSTOM:DustBlaz"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DustUraz"
+    },
+    "smeltingInputStack": {
+      "value": ""
+    },
+    "smeltingReturnStack": {
+      "value": ""
+    },
+    "name": "recurazealloy",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "crmod:coreatomic"
+    },
+    "title": {
+      "translate": "advancements.advatomiccore.title"
+    },
+    "description": {
+      "translate": "advancements.advatomiccore.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advatomiccore": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "crmod:advcarnotite"
+}

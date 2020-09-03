@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "crmod:blocks/alemoniumore",
+    "particle": "crmod:blocks/alemoniumore"
+  }
+}

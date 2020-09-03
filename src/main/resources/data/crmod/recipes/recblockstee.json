@@ -1,0 +1,42 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "crmod:ingotstee"
+    },
+    "1": {
+      "item": "crmod:ingotstee"
+    },
+    "2": {
+      "item": "crmod:ingotstee"
+    },
+    "3": {
+      "item": "crmod:ingotstee"
+    },
+    "4": {
+      "item": "crmod:ingotstee"
+    },
+    "5": {
+      "item": "crmod:ingotstee"
+    },
+    "6": {
+      "item": "crmod:ingotstee"
+    },
+    "7": {
+      "item": "crmod:ingotstee"
+    },
+    "8": {
+      "item": "crmod:ingotstee"
+    }
+  },
+  "result": {
+    "item": "crmod:blockstee",
+    "count": 1
+  }
+}

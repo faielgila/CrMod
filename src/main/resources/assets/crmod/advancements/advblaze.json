@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "crmod:ingotblaz"
+    },
+    "title": {
+      "translate": "advancements.advblaze.title"
+    },
+    "description": {
+      "translate": "advancements.advblaze.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advblaze": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

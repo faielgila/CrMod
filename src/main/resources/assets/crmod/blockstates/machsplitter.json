@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "crmod:block/machsplitter"
+    },
+    "facing=east": {
+      "model": "crmod:block/machsplitter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "crmod:block/machsplitter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "crmod:block/machsplitter",
+      "y": 270
+    }
+  }
+}

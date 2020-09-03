@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "crmod:block/orecarn"
+    },
+    "facing=east": {
+      "model": "crmod:block/orecarn",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "crmod:block/orecarn",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "crmod:block/orecarn",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "crmod:block/orecarn",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "crmod:block/orecarn",
+      "x": 90
+    }
+  }
+}

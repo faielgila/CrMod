@@ -1,0 +1,27 @@
+{
+  "_fv": 10,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "ironhammer",
+    "customModelName": "Normal",
+    "name": "Iron Crafter's Hammer",
+    "creativeTab": {
+      "value": "CUSTOM:TabTools"
+    },
+    "stackSize": 2,
+    "enchantability": 0,
+    "useDuration": 50,
+    "toolType": 2.0,
+    "damageCount": 0,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64
+  }
+}

@@ -1,0 +1,2753 @@
+{
+  "id_map": {
+    "GUI": 2
+  },
+  "mod_elements": [
+    {
+      "name": "TabBuildingBlocks",
+      "type": "tab",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TabElements",
+      "type": "tab",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TabElectronics",
+      "type": "tab",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TabMaterials",
+      "type": "tab",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TabTools",
+      "type": "tab",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OreAlem",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OreAzur",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OreBery",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OreCarn",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OreChro",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OreCupr",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OreLead",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OreLith",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OreMala",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OrePara",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OrePyrt",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OrePyro",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OreSalt",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OreSulf",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OreUrac",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IngotAlem",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GemAzur",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GemBery",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IngotBlaz",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecIngotBlaz",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Carnotite",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chromite",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IngotCopr",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecIngotCopr",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GemCupr",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IngotLead",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecIngotLead",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CrystalLith",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GemMala",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GemParaUnstable",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CrystalPyrt",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Pyrolusite",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CrystalSalt",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IngotStee",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecIngotStee",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DustSulfur",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IngotUrac",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecIngotUrac",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IngotUraz",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecIngotUraz",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockAlem",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecBlockAlem",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockBlaz",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecBlockBlaz",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockCopr",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecBlockCopr",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockLead",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecBlockLead",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockPyrt",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecBlockPyrt",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockStee",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecBlockStee",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockUrac",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecBlockUrac",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockUraz",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecBlockUrazTL",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecBlockUrazTR",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecBlockUrazBL",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecBlockUrazBR",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PickaxeAlem",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecPickaxeAlem",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PickaxeBlaz",
+      "type": "tool",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecPickaxeBlaz",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PickaxeLead",
+      "type": "tool",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecPickaxeLead",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PickaxeStee",
+      "type": "tool",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecPickaxeStee",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PickaxeUraz",
+      "type": "tool",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecPickaxeUraz",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ShovelAlem",
+      "type": "tool",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecShovelAlemL",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecShovelAlemM",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecShovelAlemR",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ShovelBlaz",
+      "type": "tool",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecShovelBlazL",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecShovelBlazM",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecShovelBlazR",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ShovelLead",
+      "type": "tool",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecShovelLeadL",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecShovelLeadM",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecShovelLeadR",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ShovelStee",
+      "type": "tool",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecShovelSteeL",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecShovelSteeM",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecShovelSteeR",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ShovelUraz",
+      "type": "tool",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecShovelUrazL",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecShovelUrazM",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecShovelUrazR",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AxeAlem",
+      "type": "tool",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecAxeAlemL",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecAxeAlemR",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AxeBlaz",
+      "type": "tool",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecAxeBlazeL",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecAxeBlazR",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AxeLead",
+      "type": "tool",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecAxeLeadL",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecAxeLeadR",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AxeStee",
+      "type": "tool",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecAxeSteeL",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecAxeSteeR",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AxeUraz",
+      "type": "tool",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecAxeUrazL",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecAxeUrazR",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SwordAlem",
+      "type": "tool",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecSwordAlemL",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecSwordAlemM",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecSwordAlemR",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SwordBlaz",
+      "type": "tool",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecSwordBlazL",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecSwordBlazM",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecSwordBlazR",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SwordLead",
+      "type": "tool",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecSwordLeadL",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecSwordLeadM",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecSwordLeadR",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SwordStee",
+      "type": "tool",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecSwordSteeL",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecSwordSteeM",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecSwordSteeR",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SwordUraz",
+      "type": "tool",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecSwordUrazL",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecSwordUrazM",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecSwordUrazR",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DustAlem",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DustAzur",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DustBery",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DustBlaz",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DustCarn",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DustCopr",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DustCupr",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DustLead",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DustMala",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DustSalt",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DustStee",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DustUrac",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DustUraz",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DustIron",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DustGold",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HammerIron",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlateAlem",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecPlateAlem",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlateBlaz",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecPlateBlaz",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlateCopr",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecPlateCopr",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlateLead",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecPlateLead",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlateStee",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecPlateStee",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlateUraz",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecPlateUraz",
+      "type": "recipe",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlateIron",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecPlateIron",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlateGold",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecPlateGold",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecUrazeAlloy",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecHammerIron",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LithiumConnector",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecLithiumConnector",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CoreAtomic",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecCoreAtomic",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CoreStablizer",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecCoreStablizer",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MachSplitter",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecMachSplitter",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GUIMachSplitter",
+      "type": "gui",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      }
+    },
+    {
+      "name": "ProcMachSplitterA",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ProcMachSplitterB",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ProcMachSplitterC",
+      "type": "procedure",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ProcMachSplitterD",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ProcMachSplitterE",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Battery",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RecBattery",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BatteryUsed",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemH",
+      "type": "item",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemHe",
+      "type": "item",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemLi",
+      "type": "item",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemBe",
+      "type": "item",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemB",
+      "type": "item",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemC",
+      "type": "item",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemN",
+      "type": "item",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemO",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemF",
+      "type": "item",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemNe",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemNa",
+      "type": "item",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemMg",
+      "type": "item",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemAl",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemSi",
+      "type": "item",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemP",
+      "type": "item",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemS",
+      "type": "item",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemCl",
+      "type": "item",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemAr",
+      "type": "item",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemK",
+      "type": "item",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemCa",
+      "type": "item",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemV",
+      "type": "item",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemCr",
+      "type": "item",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemMn",
+      "type": "item",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemFe",
+      "type": "item",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemCu",
+      "type": "item",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemAg",
+      "type": "item",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemAu",
+      "type": "item",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemPb",
+      "type": "item",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemU",
+      "type": "item",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemAe",
+      "type": "item",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemPx",
+      "type": "item",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemEp",
+      "type": "item",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemWh",
+      "type": "item",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElemCt",
+      "type": "item",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ProcElemRadiation",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TagIngotAlem",
+      "type": "tag",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagGemAzur",
+      "type": "tag",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagGemBery",
+      "type": "tag",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagIngotBlaz",
+      "type": "tag",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagCarn",
+      "type": "tag",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagChro",
+      "type": "tag",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagIngotCopper",
+      "type": "tag",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagGemCupr",
+      "type": "tag",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagIngotLead",
+      "type": "tag",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagCrystalLith",
+      "type": "tag",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagGemMala",
+      "type": "tag",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagGemParaUnstable",
+      "type": "tag",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagCrystalPyrt",
+      "type": "tag",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagOrePyrt",
+      "type": "tag",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagOreSalt",
+      "type": "tag",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagOreLead",
+      "type": "tag",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagOreChro",
+      "type": "tag",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagPyro",
+      "type": "tag",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagCrystalSalt",
+      "type": "tag",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagDustSalt",
+      "type": "tag",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagIngotStee",
+      "type": "tag",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagBlockStee",
+      "type": "tag",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagDustSulf",
+      "type": "tag",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagIngotUrac",
+      "type": "tag",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagIngotUraz",
+      "type": "tag",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagOreAlem",
+      "type": "tag",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagOreAzur",
+      "type": "tag",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagOreBery",
+      "type": "tag",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagOreCarn",
+      "type": "tag",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagOreCupr",
+      "type": "tag",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagOreLith",
+      "type": "tag",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagOreMala",
+      "type": "tag",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagOrePara",
+      "type": "tag",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagOrePyro",
+      "type": "tag",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagOreSulf",
+      "type": "tag",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagOreUrac",
+      "type": "tag",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagBlockAlem",
+      "type": "tag",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagBlockBlaz",
+      "type": "tag",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagBlockCopr",
+      "type": "tag",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagBlockLead",
+      "type": "tag",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagBlockPyrt",
+      "type": "tag",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagBlockUrac",
+      "type": "tag",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagBlockUraz",
+      "type": "tag",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagDustAlem",
+      "type": "tag",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagDustAzur",
+      "type": "tag",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagDustBery",
+      "type": "tag",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagDustBlaz",
+      "type": "tag",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagDustCarn",
+      "type": "tag",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagDustCopr",
+      "type": "tag",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagDustCupr",
+      "type": "tag",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagDustLead",
+      "type": "tag",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagDustMala",
+      "type": "tag",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagDustStee",
+      "type": "tag",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagDustUrac",
+      "type": "tag",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagDustUraz",
+      "type": "tag",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagDustIron",
+      "type": "tag",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TagDustGold",
+      "type": "tag",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ProcAdvBlaze",
+      "type": "procedure",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvBlaze",
+      "type": "achievement",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ProcAdvAlemonium",
+      "type": "procedure",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvAlemonium",
+      "type": "achievement",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AdvUrac",
+      "type": "achievement",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ProcAdvUrac",
+      "type": "procedure",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvUraze",
+      "type": "achievement",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ProcAdvUraze",
+      "type": "procedure",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvCarnotite",
+      "type": "achievement",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ProcAdvCarnotite",
+      "type": "procedure",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvAtomicCore",
+      "type": "achievement",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ProcAdvAtomicCore",
+      "type": "procedure",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecTestOredict",
+      "type": "recipe",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "SimpProc",
+      "type": "procedure",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "simp_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TestMachine",
+      "type": "block",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_machine"
+    },
+    {
+      "name": "GUITestMachine",
+      "type": "gui",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_test_machine"
+    },
+    {
+      "name": "ProcMachSplitterNew",
+      "type": "procedure",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "proc_mach_splitter_new",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.chromite.name": "Chromite",
+      "item.elempb.name": "Lead Atoms",
+      "item.crmod.elemna": "Sodium Atoms",
+      "item.ingotstee.name": "Steel Ingot",
+      "item.crmod.elemne": "Neon Atoms",
+      "item.crmod.dustcarn": "Carnotite Dust",
+      "block.crmod.orecarn": "Carnotite Ore",
+      "item.elemau.name": "Gold Atoms",
+      "item.battery.name": "Lithium-Ion Battery",
+      "item.pickaxestee.name": "Steel Pickaxe",
+      "item.pickaxealem.name": "Alemonium Pickaxe",
+      "item.crmod.pickaxealem": "Alemonium Pickaxe",
+      "item.crmod.ingotalem": "Alemonium Ingot",
+      "item.elemne.name": "Neon Atoms",
+      "item.dustcarn.name": "Carnotite Dust",
+      "item.crmod.shoveluraz": "Uraze Shovel",
+      "block.crmod.blockuraz": "Uraze Block",
+      "item.crmod.sworduraz": "Uraze Sword",
+      "item.crmod.elemmn": "Manganese Atoms",
+      "item.crmod.swordlead": "Lead Sword",
+      "item.crmod.carnotite": "Carnotite",
+      "item.elempx.name": "Paradaxium Atoms",
+      "item.crmod.plategold": "Gold Plate",
+      "advancements.advuraze.descr": "Make Uraze Alloy by mixing Urac and Blaze Dust",
+      "item.batteryused.name": "Empty Lithium-Ion Battery",
+      "item.platecopr.name": "Copper Plate",
+      "item.crmod.axeblaz": "Blaze Axe",
+      "item.crmod.crystallith": "Lithium Crystal",
+      "item.shovellead.name": "Lead Shovel",
+      "item.crmod.platealem": "Alemonium Plate",
+      "advancements.advatomiccore.descr": "Craft the Atomic Core",
+      "item.shoveluraz.name": "Uraze Shovel",
+      "item.axestee.name": "Steel Axe",
+      "item.elemb.name": "Boron Atoms",
+      "item.elemcr.name": "Chromium Atoms",
+      "item.elemhe.name": "Helium Atoms",
+      "tile.orepara.name": "Paradaxium Ore",
+      "item.crmod.plateblaz": "Blaze Plate",
+      "item.duststee.name": "Steel Dust",
+      "item.ingoturac.name": "Urac Ingot",
+      "item.crmod.shovellead": "Lead Shovel",
+      "item.dustiron.name": "Iron Dust",
+      "tile.orelith.name": "Lithium Ore",
+      "block.crmod.orechro": "Chromite Ore",
+      "item.elembe.name": "Berylium Atoms",
+      "block.crmod.blockcopr": "Copper Block",
+      "item.crmod.elempb": "Lead Atoms",
+      "block.crmod.orelead": "Lead Ore",
+      "block.crmod.oresulf": "Sulfur Ore",
+      "item.crmod.dustsulfur": "Sulfur Dust",
+      "item.crmod.axealem": "Alemonium Axe",
+      "tile.blockalem.name": "Alemonium Block",
+      "block.crmod.blocklead": "Lead Block",
+      "tile.blockstee.name": "Steel Block",
+      "item.elemct.name": "Contandis Atoms",
+      "item.crmod.dustiron": "Iron Dust",
+      "item.plateblaz.name": "Blaze Plate",
+      "advancements.advatomiccore.title": "The Feynman Core",
+      "tile.blocklead.name": "Lead Block",
+      "item.dustazur.name": "Azurite Dust",
+      "block.crmod.blockurac": "Urac Block",
+      "item.elemal.name": "Aluminum Atoms",
+      "item.ingotalem.name": "Alemonium Ingot",
+      "item.elemo.name": "Oxygen Atoms",
+      "item.gemcupr.name": "Cuprite Gem",
+      "item.elemf.name": "Fluorine Atoms",
+      "item.crmod.elempx": "Paradaxium Atoms",
+      "item.axealem.name": "Alemonium Axe",
+      "item.elemwh.name": "Whelponium Atoms",
+      "tile.orecarn.name": "Carnotite Ore",
+      "item.crmod.duststee": "Steel Dust",
+      "advancements.advurac.descr": "Find Urac, the safer alternative to Lead",
+      "item.crmod.axelead": "Lead Axe",
+      "item.crmod.gemmala": "Malachite Gem",
+      "block.crmod.orelith": "Lithium Ore",
+      "item.crmod.corestablizer": "Stablizing Core",
+      "item.elemh.name": "Hydrogen Atoms",
+      "tile.blockuraz.name": "Uraze Block",
+      "item.sworduraz.name": "Uraze Sword",
+      "block.crmod.blockalem": "Alemonium Block",
+      "item.elemae.name": "Alemonium Atoms",
+      "tile.blockurac.name": "Urac Block",
+      "item.dustmala.name": "Malachite Dust",
+      "item.crmod.swordalem": "Alemonium Sword",
+      "item.pyrolusite.name": "Pyrolusite",
+      "item.crmod.ingotstee": "Steel Ingot",
+      "item.crmod.pickaxeuraz": "Uraze Pickaxe",
+      "item.crmod.dusturaz": "Uraze Dust",
+      "item.elems.name": "Sulfur Atoms",
+      "item.crmod.dusturac": "Urac Dust",
+      "block.crmod.oreazur": "Azurite Ore",
+      "item.crmod.swordblaz": "Blaze Sword",
+      "item.crmod.coreatomic": "Atomic Core",
+      "item.gembery.name": "Heliodor Gem",
+      "advancements.advurac.title": "Safer Than Lead",
+      "item.elemsi.name": "Silicon Atoms",
+      "item.plateuraz.name": "Uraze Plate",
+      "itemGroup.tabtabtools": "CrMod Tools",
+      "item.crmod.axeuraz": "Uraze Axe",
+      "item.crmod.dustlead": "Lead Dust",
+      "item.platelead.name": "Lead Plate",
+      "advancements.advcarnotite.descr": "Aquire some Carnotite, which contains Uranium",
+      "item.crmod.dustcopr": "Copper Dust",
+      "item.shovelblaz.name": "Blaze Shovel",
+      "item.crystalpyrt.name": "Pyrite Crystal",
+      "block.crmod.blockpyrt": "Pyrite Block",
+      "item.dustcopr.name": "Copper Dust",
+      "item.crmod.elemmg": "Magnesium Atoms",
+      "block.crmod.blockblaz": "Blaze Block",
+      "item.crmod.pickaxeblaz": "Blaze Pickaxe",
+      "item.crmod.hammeriron": "Iron Crafter\u0027s Hammer",
+      "item.dustsulfur.name": "Sulfur Dust",
+      "tile.orelead.name": "Lead Ore",
+      "item.carnotite.name": "Carnotite",
+      "item.dustbery.name": "Heliodor Dust",
+      "item.dustsalt.name": "Salt Dust",
+      "item.crmod.gemazur": "Azurite Gem",
+      "item.dusturac.name": "Urac Dust",
+      "item.crmod.crystalsalt": "Salt Crystal",
+      "tile.orepyrt.name": "Pyrite Ore",
+      "item.crmod.elemli": "Lithium Atoms",
+      "item.dustalem.name": "Alemonium Dust",
+      "item.gemmala.name": "Malachite Gem",
+      "item.dustgold.name": "Gold Dust",
+      "item.elemli.name": "Lithium Atoms",
+      "item.elemn.name": "Nitrogen Atoms",
+      "item.crmod.elemep": "Espicendium Atoms",
+      "item.elemc.name": "Carbon Atoms",
+      "item.gemparaunstable.name": "Unstable Paradaxium Gem",
+      "item.platestee.name": "Steel Plate",
+      "advancements.advblaze.title": "From Flame to Metal",
+      "item.axeuraz.name": "Uraze Axe",
+      "item.ingotcopr.name": "Copper Ingot",
+      "item.elemep.name": "Espicendium Atoms",
+      "item.crmod.platelead": "Lead Plate",
+      "item.coreatomic.name": "Atomic Core",
+      "item.crmod.dustmala": "Malachite Dust",
+      "item.swordstee.name": "Steel Sword",
+      "block.crmod.orepyrt": "Pyrite Ore",
+      "item.crmod.dustblaz": "Blaze Dust",
+      "item.elemp.name": "Phosphorus Atoms",
+      "block.crmod.blockstee": "Steel Block",
+      "item.platealem.name": "Alemonium Plate",
+      "item.crmod.elemwh": "Whelponium Atoms",
+      "item.crmod.shovelstee": "Steel Shovel",
+      "item.crystallith.name": "Lithium Crystal",
+      "block.crmod.orealem": "Alemonium Ore",
+      "item.crmod.dustalem": "Alemonium Dust",
+      "item.crmod.batteryused": "Empty Lithium-Ion Battery",
+      "block.crmod.orepyro": "Pyrolusite Ore",
+      "block.crmod.oremala": "Malachite Ore",
+      "item.crmod.elemfe": "Iron Atoms",
+      "tile.blockcopr.name": "Copper Block",
+      "item.swordalem.name": "Alemonium Sword",
+      "item.crmod.swordstee": "Steel Sword",
+      "item.elemcu.name": "Copper Atoms",
+      "item.crmod.ingotcopr": "Copper Ingot",
+      "item.crmod.elemb": "Boron Atoms",
+      "item.swordlead.name": "Lead Sword",
+      "item.crmod.elemc": "Carbon Atoms",
+      "item.plategold.name": "Gold Plate",
+      "item.crmod.dustcupr": "Cuprite Dust",
+      "item.crmod.plateuraz": "Uraze Plate",
+      "item.elemar.name": "Argon Atoms",
+      "tile.machsplitter.name": "Atomic Splitter",
+      "item.crmod.crystalpyrt": "Pyrite Crystal",
+      "tile.orepyro.name": "Pyrolusite Ore",
+      "item.dustcupr.name": "Cuprite Dust",
+      "item.crmod.ingotlead": "Lead Ingot",
+      "itemGroup.tabtabbuildingblocks": "CrMod Building Blocks",
+      "advancements.advcarnotite.title": "Surprisingly Atomic",
+      "item.crmod.elemv": "Vanadium Atoms",
+      "item.crmod.elemu": "Uranium Atoms",
+      "item.axeblaz.name": "Blaze Axe",
+      "item.elemu.name": "Uranium Atoms",
+      "block.crmod.oresalt": "Salt Ore",
+      "item.crmod.ingoturac": "Urac Ingot",
+      "item.gemazur.name": "Azurite Gem",
+      "advancements.advuraze.title": "Heavy Alloy",
+      "item.dusturaz.name": "Uraze Dust",
+      "item.crmod.elemf": "Fluorine Atoms",
+      "item.corestablizer.name": "Stablizing Core",
+      "item.crmod.pickaxelead": "Lead Pickaxe",
+      "item.crmod.elemh": "Hydrogen Atoms",
+      "advancements.advalemonium.descr": "Discover Alemonium Ore",
+      "item.crmod.elemk": "Potassium Atoms",
+      "item.crmod.elemhe": "Helium Atoms",
+      "item.crmod.elemn": "Nitrogen Atoms",
+      "tile.blockpyrt.name": "Pyrite Block",
+      "tile.oreazur.name": "Azurite Ore",
+      "item.crmod.elemp": "Phosphorus Atoms",
+      "item.ingotblaz.name": "Blaze Ingot",
+      "item.crmod.elemo": "Oxygen Atoms",
+      "tile.orecupr.name": "Cuprite Ore",
+      "item.pickaxeblaz.name": "Blaze Pickaxe",
+      "item.crmod.dustbery": "Heliodor Dust",
+      "item.crmod.elems": "Sulfur Atoms",
+      "item.crmod.shovelalem": "Alemonium Shovel",
+      "advancements.advalemonium.title": "A New Chemical Element?",
+      "item.crmod.elemau": "Gold Atoms",
+      "item.dustlead.name": "Lead Dust",
+      "item.elemca.name": "Calcium Atoms",
+      "item.elemmg.name": "Magnesium Atoms",
+      "item.crmod.platestee": "Steel Plate",
+      "item.plateiron.name": "Iron Plate",
+      "item.shovelstee.name": "Steel Shovel",
+      "advancements.advblaze.descr": "Create a Blaze Ingot from smelting Blaze Powder",
+      "item.crmod.plateiron": "Iron Plate",
+      "item.crmod.elemal": "Aluminum Atoms",
+      "item.crmod.elemar": "Argon Atoms",
+      "tile.oreurac.name": "Urac Ore",
+      "item.swordblaz.name": "Blaze Sword",
+      "item.crmod.gemcupr": "Cuprite Gem",
+      "item.crmod.elemag": "Silver Atoms",
+      "block.crmod.machsplitter": "Atomic Splitter",
+      "item.crmod.elemae": "Alemonium Atoms",
+      "item.axelead.name": "Lead Axe",
+      "item.crystalsalt.name": "Salt Crystal",
+      "block.crmod.test_machine": "TestMachine",
+      "itemGroup.tabtabmaterials": "CrMod Materials",
+      "tile.orealem.name": "Alemonium Ore",
+      "item.crmod.ingoturaz": "Uraze Alloy Ingot",
+      "item.crmod.pickaxestee": "Steel Pickaxe",
+      "item.crmod.pyrolusite": "Pyrolusite",
+      "item.crmod.elemsi": "Silicon Atoms",
+      "item.crmod.battery": "Lithium-Ion Battery",
+      "item.elemna.name": "Sodium Atoms",
+      "tile.oresulf.name": "Sulfur Ore",
+      "item.crmod.lithiumconnector": "Lithium Connector",
+      "block.crmod.oreurac": "Urac Ore",
+      "item.crmod.elembe": "Berylium Atoms",
+      "item.crmod.dustazur": "Azurite Dust",
+      "item.elemv.name": "Vanadium Atoms",
+      "tile.blockblaz.name": "Blaze Block",
+      "item.crmod.gembery": "Heliodor Gem",
+      "item.elemcl.name": "Chlorine Atoms",
+      "item.ingotlead.name": "Lead Ingot",
+      "item.pickaxelead.name": "Lead Pickaxe",
+      "item.hammeriron.name": "Iron Crafter\u0027s Hammer",
+      "item.pickaxeuraz.name": "Uraze Pickaxe",
+      "item.crmod.dustgold": "Gold Dust",
+      "item.lithiumconnector.name": "Lithium Connector",
+      "tile.orebery.name": "Beryl Ore",
+      "item.elemk.name": "Potassium Atoms",
+      "item.crmod.elemct": "Contandis Atoms",
+      "item.elemfe.name": "Iron Atoms",
+      "item.crmod.elemcu": "Copper Atoms",
+      "item.elemag.name": "Silver Atoms",
+      "item.crmod.elemcr": "Chromium Atoms",
+      "item.crmod.platecopr": "Copper Plate",
+      "block.crmod.orepara": "Paradaxium Ore",
+      "item.crmod.elemcl": "Chlorine Atoms",
+      "item.dustblaz.name": "Blaze Dust",
+      "block.crmod.orecupr": "Cuprite Ore",
+      "item.shovelalem.name": "Alemonium Shovel",
+      "item.crmod.elemca": "Calcium Atoms",
+      "item.ingoturaz.name": "Uraze Alloy Ingot",
+      "tile.oresalt.name": "Salt Ore",
+      "item.crmod.axestee": "Steel Axe",
+      "item.crmod.chromite": "Chromite",
+      "item.crmod.ingotblaz": "Blaze Ingot",
+      "item.elemmn.name": "Manganese Atoms",
+      "item.crmod.dustsalt": "Salt Dust",
+      "tile.orechro.name": "Chromite Ore",
+      "itemGroup.tabtabelements": "CrMod Elements",
+      "item.crmod.shovelblaz": "Blaze Shovel",
+      "itemGroup.tabtabelectronics": "CrMod Electronics",
+      "tile.oremala.name": "Malachite Ore",
+      "item.crmod.gemparaunstable": "Unstable Paradaxium Gem",
+      "block.crmod.orebery": "Beryl Ore"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "crmod",
+    "modName": "CrMod",
+    "version": "1.4.0",
+    "author": "faielgila",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "The Crafter\u0027s Mod. Created with MCreator",
+    "modElementsPackage": "net.mcreator.crmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

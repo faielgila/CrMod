@@ -1,0 +1,51 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PlateIron"
+      },
+      {
+        "value": "CUSTOM:PlateGold"
+      },
+      {
+        "value": "CUSTOM:PlateIron"
+      },
+      {
+        "value": "CUSTOM:CrystalLith"
+      },
+      {
+        "value": "CUSTOM:PlateIron"
+      },
+      {
+        "value": "CUSTOM:PlateCopr"
+      },
+      {
+        "value": "CUSTOM:PlateIron"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Battery"
+    },
+    "smeltingInputStack": {
+      "value": ""
+    },
+    "smeltingReturnStack": {
+      "value": ""
+    },
+    "name": "recbattery",
+    "namespace": "mod"
+  }
+}

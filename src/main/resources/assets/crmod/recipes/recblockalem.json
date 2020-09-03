@@ -1,0 +1,42 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "crmod:ingotalem"
+    },
+    "1": {
+      "item": "crmod:ingotalem"
+    },
+    "2": {
+      "item": "crmod:ingotalem"
+    },
+    "3": {
+      "item": "crmod:ingotalem"
+    },
+    "4": {
+      "item": "crmod:ingotalem"
+    },
+    "5": {
+      "item": "crmod:ingotalem"
+    },
+    "6": {
+      "item": "crmod:ingotalem"
+    },
+    "7": {
+      "item": "crmod:ingotalem"
+    },
+    "8": {
+      "item": "crmod:ingotalem"
+    }
+  },
+  "result": {
+    "item": "crmod:blockalem",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "crmod",
+  "type": "minecraft:smelting",
+  "experience": 0,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "crmod:gemazur"
+  },
+  "result": {
+    "item": "crmod:ingotcopr"
+  }
+}

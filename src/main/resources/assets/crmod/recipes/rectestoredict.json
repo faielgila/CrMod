@@ -1,0 +1,23 @@
+{
+  "group": "crmod",
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "C",
+    "C",
+    "S"
+  ],
+  "key": {
+    "C": {
+      "ore": "ingotCopper",
+      "type": "forge:ore_dict",
+    },
+    "S": {
+      "ore": "ingotSteel",
+      "type": "forge:ore_dict",
+    }
+  },
+  "result": {
+    "item": "crmod:machsplitter",
+    "count": 1
+  }
+}

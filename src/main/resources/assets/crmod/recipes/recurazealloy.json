@@ -1,0 +1,16 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crmod:dusturac"
+    },
+    {
+      "item": "crmod:dustblaz"
+    }
+  ],
+  "result": {
+    "item": "crmod:dusturaz",
+    "count": 2
+  }
+}

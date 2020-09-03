@@ -1,0 +1,51 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PlateLead"
+      },
+      {
+        "value": "Blocks.HOPPER"
+      },
+      {
+        "value": "CUSTOM:PlateLead"
+      },
+      {
+        "value": "CUSTOM:PlateLead"
+      },
+      {
+        "value": "CUSTOM:CoreAtomic"
+      },
+      {
+        "value": "CUSTOM:PlateLead"
+      },
+      {
+        "value": "CUSTOM:PlateLead"
+      },
+      {
+        "value": "CUSTOM:BlockLead"
+      },
+      {
+        "value": "CUSTOM:PlateLead"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MachSplitter"
+    },
+    "smeltingInputStack": {
+      "value": ""
+    },
+    "smeltingReturnStack": {
+      "value": ""
+    },
+    "name": "recmachsplitter",
+    "namespace": "mod"
+  }
+}

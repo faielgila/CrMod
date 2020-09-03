@@ -1,0 +1,51 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:IngotAlem"
+      },
+      {
+        "value": "CUSTOM:IngotAlem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IngotAlem"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AxeAlem"
+    },
+    "smeltingInputStack": {
+      "value": ""
+    },
+    "smeltingReturnStack": {
+      "value": ""
+    },
+    "name": "recaxealeml",
+    "namespace": "mod"
+  }
+}

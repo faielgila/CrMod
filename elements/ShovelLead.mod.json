@@ -1,0 +1,25 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "leadshovel",
+    "customModelName": "Normal",
+    "name": "Lead Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:TabTools"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 3,
+    "efficiency": 14.0,
+    "attackSpeed": 2.8,
+    "enchantability": 5,
+    "damageVsEntity": 5.5,
+    "usageCount": 500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

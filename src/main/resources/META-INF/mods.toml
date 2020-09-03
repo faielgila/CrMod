@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="crmod"
+version="1.4.0"
+displayName="CrMod"
+credits="The Crafter's Mod. Created with MCreator"
+displayURL="https://mcreator.net"
+authors="faielgila"
+
+[[dependencies.crmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

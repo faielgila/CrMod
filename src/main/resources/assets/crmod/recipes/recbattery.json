@@ -1,0 +1,36 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "crmod:plateiron"
+    },
+    "2": {
+      "item": "crmod:plategold"
+    },
+    "3": {
+      "item": "crmod:plateiron"
+    },
+    "4": {
+      "item": "crmod:crystallith"
+    },
+    "5": {
+      "item": "crmod:plateiron"
+    },
+    "6": {
+      "item": "crmod:platecopr"
+    },
+    "7": {
+      "item": "crmod:plateiron"
+    }
+  },
+  "result": {
+    "item": "crmod:battery",
+    "count": 4
+  }
+}

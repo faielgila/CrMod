@@ -1,0 +1,42 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "crmod:ingotlead"
+    },
+    "1": {
+      "item": "crmod:ingotlead"
+    },
+    "2": {
+      "item": "crmod:ingotlead"
+    },
+    "3": {
+      "item": "crmod:ingotlead"
+    },
+    "4": {
+      "item": "crmod:ingotlead"
+    },
+    "5": {
+      "item": "crmod:ingotlead"
+    },
+    "6": {
+      "item": "crmod:ingotlead"
+    },
+    "7": {
+      "item": "crmod:ingotlead"
+    },
+    "8": {
+      "item": "crmod:ingotlead"
+    }
+  },
+  "result": {
+    "item": "crmod:blocklead",
+    "count": 1
+  }
+}

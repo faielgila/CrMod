@@ -1,0 +1,51 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IngotLead"
+      },
+      {
+        "value": "CUSTOM:IngotLead"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:IngotLead"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AxeLead"
+    },
+    "smeltingInputStack": {
+      "value": ""
+    },
+    "smeltingReturnStack": {
+      "value": ""
+    },
+    "name": "recaxeleadr",
+    "namespace": "mod"
+  }
+}

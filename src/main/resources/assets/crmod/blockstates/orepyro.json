@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "crmod:block/orepyro"
+    },
+    "facing=east": {
+      "model": "crmod:block/orepyro",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "crmod:block/orepyro",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "crmod:block/orepyro",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "crmod:block/orepyro",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "crmod:block/orepyro",
+      "x": 90
+    }
+  }
+}

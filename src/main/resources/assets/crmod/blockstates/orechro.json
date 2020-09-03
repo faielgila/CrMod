@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "crmod:block/orechro"
+    },
+    "facing=east": {
+      "model": "crmod:block/orechro",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "crmod:block/orechro",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "crmod:block/orechro",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "crmod:block/orechro",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "crmod:block/orechro",
+      "x": 90
+    }
+  }
+}

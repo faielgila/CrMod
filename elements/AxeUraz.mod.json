@@ -1,0 +1,25 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "urazeaxe",
+    "customModelName": "Normal",
+    "name": "Uraze Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:TabTools"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 4,
+    "efficiency": 8.0,
+    "attackSpeed": 2.8,
+    "enchantability": 10,
+    "damageVsEntity": 6.5,
+    "usageCount": 1300,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

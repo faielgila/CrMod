@@ -1,0 +1,42 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "crmod:ingotblaz"
+    },
+    "1": {
+      "item": "crmod:ingotblaz"
+    },
+    "2": {
+      "item": "crmod:ingotblaz"
+    },
+    "3": {
+      "item": "crmod:ingotblaz"
+    },
+    "4": {
+      "item": "crmod:ingotblaz"
+    },
+    "5": {
+      "item": "crmod:ingotblaz"
+    },
+    "6": {
+      "item": "crmod:ingotblaz"
+    },
+    "7": {
+      "item": "crmod:ingotblaz"
+    },
+    "8": {
+      "item": "crmod:ingotblaz"
+    }
+  },
+  "result": {
+    "item": "crmod:blockblaz",
+    "count": 1
+  }
+}

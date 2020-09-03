@@ -1,0 +1,16 @@
+{
+  "_fv": 10,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:BlockStee"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "blockSteel",
+    "namespace": "forge"
+  }
+}

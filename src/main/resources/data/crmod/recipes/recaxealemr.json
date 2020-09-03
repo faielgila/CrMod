@@ -1,0 +1,30 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "crmod:ingotalem"
+    },
+    "1": {
+      "item": "crmod:ingotalem"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "crmod:ingotalem"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "crmod:axealem",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "crmod:block/blockurac"
+    },
+    "facing=east": {
+      "model": "crmod:block/blockurac",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "crmod:block/blockurac",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "crmod:block/blockurac",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "crmod:block/blockurac",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "crmod:block/blockurac",
+      "x": 90
+    }
+  }
+}

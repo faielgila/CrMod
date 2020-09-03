@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "crmod:block/blockblaz"
+    },
+    "facing=east": {
+      "model": "crmod:block/blockblaz",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "crmod:block/blockblaz",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "crmod:block/blockblaz",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "crmod:block/blockblaz",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "crmod:block/blockblaz",
+      "x": 90
+    }
+  }
+}
