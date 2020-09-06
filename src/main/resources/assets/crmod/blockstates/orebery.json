@@ -1,27 +1,7 @@
 {
   "variants": {
-    "facing=north": {
+    "": {
       "model": "crmod:block/orebery"
-    },
-    "facing=east": {
-      "model": "crmod:block/orebery",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "crmod:block/orebery",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "crmod:block/orebery",
-      "y": 270
-    },
-    "facing=up": {
-      "model": "crmod:block/orebery",
-      "x": 270
-    },
-    "facing=down": {
-      "model": "crmod:block/orebery",
-      "x": 90
     }
   }
 }

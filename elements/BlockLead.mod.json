@@ -10,8 +10,9 @@
     "textureBack": "",
     "renderType": 11,
     "customModelName": "Single texture",
-    "rotationMode": 2,
+    "rotationMode": 0,
     "emissiveRendering": false,
+    "itemTexture": "",
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -46,6 +47,9 @@
     "tickRandomly": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
@@ -68,6 +72,7 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": false,
+    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -82,6 +87,7 @@
     "energyMaxExtract": 200,
     "isFluidTank": false,
     "fluidCapacity": 8000,
+    "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

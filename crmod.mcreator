@@ -1382,108 +1382,6 @@
       }
     },
     {
-      "name": "ProcMachSplitterA",
-      "type": "procedure",
-      "sortid": 209,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "ProcMachSplitterB",
-      "type": "procedure",
-      "sortid": 210,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "ProcMachSplitterC",
-      "type": "procedure",
-      "sortid": 211,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "ProcMachSplitterD",
-      "type": "procedure",
-      "sortid": 212,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": []
-      }
-    },
-    {
-      "name": "ProcMachSplitterE",
-      "type": "procedure",
-      "sortid": 213,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": []
-      }
-    },
-    {
       "name": "Battery",
       "type": "item",
       "sortid": 90,
@@ -1791,6 +1689,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       }
@@ -2404,41 +2306,6 @@
       "ids": {}
     },
     {
-      "name": "SimpProc",
-      "type": "procedure",
-      "sortid": 286,
-      "compiles": true,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "simp_proc",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "TestMachine",
-      "type": "block",
-      "sortid": 287,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "test_machine"
-    },
-    {
-      "name": "GUITestMachine",
-      "type": "gui",
-      "sortid": 288,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "gui_test_machine"
-    },
-    {
       "name": "ProcMachSplitterNew",
       "type": "procedure",
       "sortid": 289,
@@ -2454,6 +2321,78 @@
           }
         ]
       }
+    },
+    {
+      "name": "OreThor",
+      "type": "block",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ore_thor"
+    },
+    {
+      "name": "Thorite",
+      "type": "item",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thorite"
+    },
+    {
+      "name": "TabChemicals",
+      "type": "tab",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tab_chemicals"
+    },
+    {
+      "name": "ChemSodiumHydroxide",
+      "type": "item",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chem_sodium_hydroxide"
+    },
+    {
+      "name": "Thorium",
+      "type": "item",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thorium"
+    },
+    {
+      "name": "ElemTh",
+      "type": "item",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elem_th"
+    },
+    {
+      "name": "GUIMachBasin",
+      "type": "gui",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_mach_basin"
+    },
+    {
+      "name": "MachBasin",
+      "type": "block",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mach_basin"
     }
   ],
   "variable_elements": [],
@@ -2480,6 +2419,7 @@
       "item.crmod.sworduraz": "Uraze Sword",
       "item.crmod.elemmn": "Manganese Atoms",
       "item.crmod.swordlead": "Lead Sword",
+      "item.crmod.chem_sodium_hydroxide": "Sodium Hydroxide Solution",
       "item.crmod.carnotite": "Carnotite",
       "item.elempx.name": "Paradaxium Atoms",
       "item.crmod.plategold": "Gold Plate",
@@ -2491,6 +2431,7 @@
       "item.shovellead.name": "Lead Shovel",
       "item.crmod.platealem": "Alemonium Plate",
       "advancements.advatomiccore.descr": "Craft the Atomic Core",
+      "itemGroup.tabtab_chemicals": "CrMod Chemicals",
       "item.shoveluraz.name": "Uraze Shovel",
       "item.axestee.name": "Steel Axe",
       "item.elemcr.name": "Chromium Atoms",
@@ -2512,11 +2453,13 @@
       "item.crmod.dustsulfur": "Sulfur Dust",
       "tile.blockalem.name": "Alemonium Block",
       "item.crmod.axealem": "Alemonium Axe",
+      "item.crmod.thorium": "Thorium",
       "block.crmod.blocklead": "Lead Block",
       "item.elemct.name": "Contandis Atoms",
       "tile.blockstee.name": "Steel Block",
       "item.plateblaz.name": "Blaze Plate",
       "item.crmod.dustiron": "Iron Dust",
+      "item.crmod.thorite": "Thorite",
       "advancements.advatomiccore.title": "The Feynman Core",
       "tile.blocklead.name": "Lead Block",
       "item.dustazur.name": "Azurite Dust",
@@ -2526,9 +2469,11 @@
       "item.elemo.name": "Oxygen Atoms",
       "item.gemcupr.name": "Cuprite Gem",
       "item.elemf.name": "Fluorine Atoms",
+      "block.crmod.ore_thor": "Thorite Ore",
       "item.crmod.elempx": "Paradaxium Atoms",
       "item.axealem.name": "Alemonium Axe",
       "item.elemwh.name": "Whelponium Atoms",
+      "item.crmod.elem_th": "Thorium Atoms",
       "tile.orecarn.name": "Carnotite Ore",
       "item.crmod.duststee": "Steel Dust",
       "advancements.advurac.descr": "Find Urac, the safer alternative to Lead",
@@ -2575,6 +2520,7 @@
       "tile.orelead.name": "Lead Ore",
       "item.carnotite.name": "Carnotite",
       "item.dustbery.name": "Heliodor Dust",
+      "block.crmod.mach_basin": "Chemical Basin",
       "item.dustsalt.name": "Salt Dust",
       "item.crmod.gemazur": "Azurite Gem",
       "item.dusturac.name": "Urac Dust",
@@ -2678,7 +2624,6 @@
       "item.crmod.elemae": "Alemonium Atoms",
       "item.axelead.name": "Lead Axe",
       "item.crystalsalt.name": "Salt Crystal",
-      "block.crmod.test_machine": "TestMachine",
       "itemGroup.tabtabmaterials": "CrMod Materials",
       "tile.orealem.name": "Alemonium Ore",
       "item.crmod.ingoturaz": "Uraze Alloy Ingot",
@@ -2737,7 +2682,6 @@
     "modName": "CrMod",
     "version": "1.4.0",
     "author": "faielgila",
-    "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],

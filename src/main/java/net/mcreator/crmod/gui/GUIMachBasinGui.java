@@ -35,8 +35,6 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.crmod.procedures.ProcMachSplitterNewProcedure;
-import net.mcreator.crmod.item.BatteryItem;
 import net.mcreator.crmod.CrmodModElements;
 import net.mcreator.crmod.CrmodMod;
 
@@ -45,11 +43,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @CrmodModElements.ModElement.Tag
-public class GUITestMachineGui extends CrmodModElements.ModElement {
+public class GUIMachBasinGui extends CrmodModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public GUITestMachineGui(CrmodModElements instance) {
-		super(instance, 288);
+	public GUIMachBasinGui(CrmodModElements instance) {
+		super(instance, 295);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -65,7 +63,7 @@ public class GUITestMachineGui extends CrmodModElements.ModElement {
 
 	@SubscribeEvent
 	public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-		event.getRegistry().register(containerType.setRegistryName("gui_test_machine"));
+		event.getRegistry().register(containerType.setRegistryName("gui_mach_basin"));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -84,7 +82,7 @@ public class GUITestMachineGui extends CrmodModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(9);
+			this.internal = new ItemStackHandler(11);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -124,49 +122,45 @@ public class GUITestMachineGui extends CrmodModElements.ModElement {
 			}
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 30) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 61, 30) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 30) {
+			}));
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 30) {
+			}));
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 7, 48) {
+			}));
+			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 25, 48) {
+			}));
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 43, 48) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 79, 30) {
+			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 88, 30) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 97, 30) {
+			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 133, 12) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 115, 30) {
+			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 151, 12) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 133, 30) {
+			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 133, 30) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 151, 30) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 7, 48) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return (new ItemStack(BatteryItem.block, (int) (1)).getItem() == stack.getItem());
-				}
-			}));
-			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 61, 48) {
+			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 151, 30) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -197,18 +191,18 @@ public class GUITestMachineGui extends CrmodModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 9) {
-					if (!this.mergeItemStack(itemstack1, 9, this.inventorySlots.size(), true)) {
+				if (index < 11) {
+					if (!this.mergeItemStack(itemstack1, 11, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 9, false)) {
-					if (index < 9 + 27) {
-						if (!this.mergeItemStack(itemstack1, 9 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 11, false)) {
+					if (index < 11 + 27) {
+						if (!this.mergeItemStack(itemstack1, 11 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 9, 9 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 11, 11 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -348,7 +342,7 @@ public class GUITestMachineGui extends CrmodModElements.ModElement {
 			this.xSize = 176;
 			this.ySize = 166;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("crmod:textures/gui_test_machine.png");
+		private static final ResourceLocation texture = new ResourceLocation("crmod:textures/gui_mach_basin.png");
 		@Override
 		public void render(int mouseX, int mouseY, float partialTicks) {
 			this.renderBackground();
@@ -363,8 +357,10 @@ public class GUITestMachineGui extends CrmodModElements.ModElement {
 			int k = (this.width - this.xSize) / 2;
 			int l = (this.height - this.ySize) / 2;
 			this.blit(k, l, 0, 0, this.xSize, this.ySize);
-			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("crmod:textures/atomic_splitter_-_arrow.png"));
-			this.blit(this.guiLeft + 25, this.guiTop + 29, 0, 0, 256, 256);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("crmod:textures/chemical_basin_-_arrow_a.png"));
+			this.blit(this.guiLeft + 61, this.guiTop + 29, 0, 0, 256, 256);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("crmod:textures/chemical_basin_-_arrow_b.png"));
+			this.blit(this.guiLeft + 106, this.guiTop + 11, 0, 0, 256, 256);
 		}
 
 		@Override
@@ -383,7 +379,7 @@ public class GUITestMachineGui extends CrmodModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
-			this.font.drawString("TestMachine", 7, 11, -12566464);
+			this.font.drawString("Chemical Basin", 7, 11, -12566464);
 		}
 
 		@Override
@@ -396,7 +392,7 @@ public class GUITestMachineGui extends CrmodModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 97, this.guiTop + 56, 72, 20, "Launch", e -> {
+			this.addButton(new Button(this.guiLeft + 115, this.guiTop + 56, 54, 20, "Process", e -> {
 				CrmodMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
 			}));
@@ -489,13 +485,6 @@ public class GUITestMachineGui extends CrmodModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
-		if (buttonID == 0) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				ProcMachSplitterNewProcedure.executeProcedure($_dependencies);
-			}
-		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {

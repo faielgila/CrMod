@@ -1,5 +1,5 @@
 {
-  "parent": "crmod:block/test_machine",
+  "parent": "crmod:block/ore_thor",
   "display": {
     "thirdperson": {
       "rotation": [

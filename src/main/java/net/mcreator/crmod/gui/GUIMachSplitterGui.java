@@ -35,7 +35,7 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.crmod.procedures.ProcMachSplitterAProcedure;
+import net.mcreator.crmod.procedures.ProcMachSplitterNewProcedure;
 import net.mcreator.crmod.item.BatteryItem;
 import net.mcreator.crmod.CrmodModElements;
 import net.mcreator.crmod.CrmodMod;
@@ -396,7 +396,7 @@ public class GUIMachSplitterGui extends CrmodModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 97, this.guiTop + 56, 72, 20, "Launch", e -> {
+			this.addButton(new Button(this.guiLeft + 115, this.guiTop + 56, 54, 20, "Process", e -> {
 				CrmodMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
 			}));
@@ -493,11 +493,7 @@ public class GUIMachSplitterGui extends CrmodModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				ProcMachSplitterAProcedure.executeProcedure($_dependencies);
+				ProcMachSplitterNewProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

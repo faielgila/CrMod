@@ -91,14 +91,14 @@
       {
         "type": "button",
         "data": {
-          "text": "Launch",
+          "text": "Process",
           "onClick": {
-            "name": "ProcMachSplitterA"
+            "name": "ProcMachSplitterNew"
           },
-          "width": 144,
+          "width": 108,
           "height": 40,
-          "name": "Launch",
-          "x": 444,
+          "name": "Process",
+          "x": 480,
           "y": 186
         }
       },

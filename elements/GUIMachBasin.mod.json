@@ -9,6 +9,19 @@
     "doesPauseGame": false,
     "components": [
       {
+        "type": "label",
+        "data": {
+          "text": "Chemical Basin",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Chemical Basin",
+          "x": 264,
+          "y": 96
+        }
+      },
+      {
         "type": "inputslot",
         "data": {
           "inputLimit": {
@@ -23,47 +36,59 @@
         }
       },
       {
-        "type": "outputslot",
+        "type": "inputslot",
         "data": {
+          "inputLimit": {
+            "value": ""
+          },
           "id": 1,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #1",
-          "x": 372,
+          "x": 300,
           "y": 132
         }
       },
       {
-        "type": "outputslot",
+        "type": "inputslot",
         "data": {
+          "inputLimit": {
+            "value": ""
+          },
           "id": 2,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
-          "x": 408,
+          "x": 336,
           "y": 132
         }
       },
       {
-        "type": "outputslot",
+        "type": "inputslot",
         "data": {
+          "inputLimit": {
+            "value": ""
+          },
           "id": 3,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #3",
-          "x": 444,
-          "y": 132
+          "x": 264,
+          "y": 168
         }
       },
       {
-        "type": "outputslot",
+        "type": "inputslot",
         "data": {
+          "inputLimit": {
+            "value": ""
+          },
           "id": 4,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #4",
-          "x": 480,
-          "y": 132
+          "x": 300,
+          "y": 168
         }
       },
       {
@@ -73,8 +98,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #5",
-          "x": 516,
-          "y": 132
+          "x": 336,
+          "y": 168
         }
       },
       {
@@ -84,36 +109,19 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #6",
-          "x": 552,
+          "x": 426,
           "y": 132
         }
       },
       {
-        "type": "button",
+        "type": "outputslot",
         "data": {
-          "text": "Launch",
-          "onClick": {
-            "name": "ProcMachSplitterNew"
-          },
-          "width": 144,
-          "height": 40,
-          "name": "Launch",
-          "x": 444,
-          "y": 186
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": "CUSTOM:Battery"
-          },
           "id": 7,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #7",
-          "x": 264,
-          "y": 168
+          "x": 516,
+          "y": 96
         }
       },
       {
@@ -123,30 +131,59 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #8",
-          "x": 372,
-          "y": 168
+          "x": 552,
+          "y": 96
         }
       },
       {
-        "type": "label",
+        "type": "outputslot",
         "data": {
-          "text": "TestMachine",
-          "color": {
-            "value": -12566464,
-            "falpha": 0.0
-          },
-          "name": "TestMachine",
-          "x": 264,
-          "y": 96
+          "id": 9,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #9",
+          "x": 516,
+          "y": 132
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 10,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #10",
+          "x": 552,
+          "y": 132
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Process",
+          "width": 108,
+          "height": 40,
+          "name": "Process",
+          "x": 480,
+          "y": 186
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "atomic_splitter_-_arrow.png",
-          "name": "atomic_splitter_-_arrow.png",
-          "x": 300,
+          "image": "chemical_basin_-_arrow_a.png",
+          "name": "chemical_basin_-_arrow_a.png",
+          "x": 372,
           "y": 132
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chemical_basin_-_arrow_b.png",
+          "name": "chemical_basin_-_arrow_b.png",
+          "x": 462,
+          "y": 96
         }
       }
     ]

@@ -1,6 +1,7 @@
 package net.mcreator.crmod.procedures;
 
 import net.minecraft.util.DamageSource;
+import net.minecraft.item.ItemStack;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.crmod.CrmodModElements;
@@ -18,7 +19,14 @@ public class ProcElemRadiationProcedure extends CrmodModElements.ModElement {
 			System.err.println("Failed to load dependency entity for procedure ProcElemRadiation!");
 			return;
 		}
+		if (dependencies.get("itemstack") == null) {
+			System.err.println("Failed to load dependency itemstack for procedure ProcElemRadiation!");
+			return;
+		}
 		Entity entity = (Entity) dependencies.get("entity");
-		entity.attackEntityFrom(DamageSource.GENERIC, (float) 0.1);
+		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
+		for (int index0 = 0; index0 < (int) ((((itemstack)).getCount())); index0++) {
+			entity.attackEntityFrom(DamageSource.GENERIC, (float) 0.1);
+		}
 	}
 }

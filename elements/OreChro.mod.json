@@ -10,8 +10,9 @@
     "textureBack": "",
     "renderType": 11,
     "customModelName": "Single texture",
-    "rotationMode": 2,
+    "rotationMode": 0,
     "emissiveRendering": false,
+    "itemTexture": "",
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -86,6 +87,7 @@
     "energyMaxExtract": 200,
     "isFluidTank": false,
     "fluidCapacity": 8000,
+    "fluidRestrictions": [],
     "spawnWorldTypes": [
       "Surface"
     ],

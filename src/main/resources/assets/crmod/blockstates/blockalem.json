@@ -1,27 +1,7 @@
 {
   "variants": {
-    "facing=north": {
+    "": {
       "model": "crmod:block/blockalem"
-    },
-    "facing=east": {
-      "model": "crmod:block/blockalem",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "crmod:block/blockalem",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "crmod:block/blockalem",
-      "y": 270
-    },
-    "facing=up": {
-      "model": "crmod:block/blockalem",
-      "x": 270
-    },
-    "facing=down": {
-      "model": "crmod:block/blockalem",
-      "x": 90
     }
   }
 }

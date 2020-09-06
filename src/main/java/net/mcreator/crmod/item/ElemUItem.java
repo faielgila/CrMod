@@ -58,6 +58,7 @@ public class ElemUItem extends CrmodModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
+				$_dependencies.put("itemstack", itemstack);
 				ProcElemRadiationProcedure.executeProcedure($_dependencies);
 			}
 		}

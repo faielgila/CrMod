@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "crmod:blocks/chemical_basin_-_side_back_front_bottom",
+    "up": "crmod:blocks/chemical_basin_-_top",
+    "north": "crmod:blocks/chemical_basin_-_side_back_front_bottom",
+    "east": "crmod:blocks/chemical_basin_-_side_back_front_bottom",
+    "south": "crmod:blocks/chemical_basin_-_side_back_front_bottom",
+    "west": "crmod:blocks/chemical_basin_-_side_back_front_bottom",
+    "particle": "crmod:blocks/chemical_basin_-_side_back_front_bottom"
+  }
+}

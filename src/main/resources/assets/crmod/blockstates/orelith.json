@@ -1,27 +1,7 @@
 {
   "variants": {
-    "facing=north": {
+    "": {
       "model": "crmod:block/orelith"
-    },
-    "facing=east": {
-      "model": "crmod:block/orelith",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "crmod:block/orelith",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "crmod:block/orelith",
-      "y": 270
-    },
-    "facing=up": {
-      "model": "crmod:block/orelith",
-      "x": 270
-    },
-    "facing=down": {
-      "model": "crmod:block/orelith",
-      "x": 90
     }
   }
 }

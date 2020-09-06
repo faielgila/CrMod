@@ -34,34 +34,7 @@ public class MachSplitterNewProcedure extends CrmodModElements.ModElement {
 		
 		if (!areItemSlotsValid(sltHlpr)) return;
 		
-		//processItem(sltHlpr, sltHlpr.getItemStackInSlot(0).getItem());
-		
-		if (sltHlpr.getItemStackInSlot(0).getItem() == IngotAlemItem.block) {
-			if (sltHlpr.getItemStackInSlot(1) == ItemStack.EMPTY) {
-				sltHlpr.setItemStackInSlot(1, new ItemStack(ElemAeItem.block, 4));
-			}
-			else if (sltHlpr.getItemStackInSlot(1).getItem() == ElemAeItem.block) {
-				sltHlpr.increaseItemAmountInSlot(1, 4);
-			}
-			else {
-				System.out.println("No viable output slots found!");
-				return;
-			}
-			
-			if (sltHlpr.getItemStackInSlot(7) == ItemStack.EMPTY) {
-				sltHlpr.setItemStackInSlot(7, new ItemStack(ElemAeItem.block, 1));
-			}
-			else if (sltHlpr.getItemStackInSlot(7).getItem() == ElemAeItem.block) {
-				sltHlpr.increaseItemAmountInSlot(7, 1);
-			}
-			else {
-				System.out.println("No viable output slots found!");
-				return;
-			}
-			
-			sltHlpr.increaseItemAmountInSlot(0, -1);
-			sltHlpr.increaseItemAmountInSlot(7, -1);
-		}
+		processItem(sltHlpr, sltHlpr.getItemStackInSlot(0).getItem());
 	}
 	
 	public static boolean isPowerInSlotValid  (SlotHelper slotHelper) {

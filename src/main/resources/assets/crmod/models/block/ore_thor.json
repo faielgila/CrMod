@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "crmod:blocks/thorite_ore",
+    "particle": "crmod:blocks/thorite_ore"
+  }
+}

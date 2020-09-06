@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=north": {
-      "model": "crmod:block/test_machine"
+      "model": "crmod:block/mach_basin"
     },
     "facing=east": {
-      "model": "crmod:block/test_machine",
+      "model": "crmod:block/mach_basin",
       "y": 90
     },
     "facing=south": {
-      "model": "crmod:block/test_machine",
+      "model": "crmod:block/mach_basin",
       "y": 180
     },
     "facing=west": {
-      "model": "crmod:block/test_machine",
+      "model": "crmod:block/mach_basin",
       "y": 270
     }
   }

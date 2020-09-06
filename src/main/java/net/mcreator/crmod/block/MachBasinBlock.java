@@ -54,7 +54,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.crmod.itemgroup.TabElectronicsItemGroup;
-import net.mcreator.crmod.gui.GUITestMachineGui;
+import net.mcreator.crmod.gui.GUIMachBasinGui;
 import net.mcreator.crmod.CrmodModElements;
 
 import javax.annotation.Nullable;
@@ -66,13 +66,13 @@ import java.util.Collections;
 import io.netty.buffer.Unpooled;
 
 @CrmodModElements.ModElement.Tag
-public class TestMachineBlock extends CrmodModElements.ModElement {
-	@ObjectHolder("crmod:test_machine")
+public class MachBasinBlock extends CrmodModElements.ModElement {
+	@ObjectHolder("crmod:mach_basin")
 	public static final Block block = null;
-	@ObjectHolder("crmod:test_machine")
+	@ObjectHolder("crmod:mach_basin")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
-	public TestMachineBlock(CrmodModElements instance) {
-		super(instance, 287);
+	public MachBasinBlock(CrmodModElements instance) {
+		super(instance, 295);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -85,15 +85,20 @@ public class TestMachineBlock extends CrmodModElements.ModElement {
 
 	@SubscribeEvent
 	public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
-		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("test_machine"));
+		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("mach_basin"));
 	}
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(2f, 10f).lightValue(0).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("test_machine");
+			setRegistryName("mach_basin");
+		}
+
+		@Override
+		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
+			return true;
 		}
 
 		@Override
@@ -133,12 +138,12 @@ public class TestMachineBlock extends CrmodModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("TestMachine");
+						return new StringTextComponent("Chemical Basin");
 					}
 
 					@Override
 					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new GUITestMachineGui.GuiContainerMod(id, inventory,
+						return new GUIMachBasinGui.GuiContainerMod(id, inventory,
 								new PacketBuffer(Unpooled.buffer()).writeBlockPos(new BlockPos(x, y, z)));
 					}
 				}, new BlockPos(x, y, z));
@@ -197,7 +202,7 @@ public class TestMachineBlock extends CrmodModElements.ModElement {
 	}
 
 	public static class CustomTileEntity extends LockableLootTileEntity implements ISidedInventory {
-		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
+		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(11, ItemStack.EMPTY);
 		protected CustomTileEntity() {
 			super(tileEntityType);
 		}
@@ -250,7 +255,7 @@ public class TestMachineBlock extends CrmodModElements.ModElement {
 
 		@Override
 		public ITextComponent getDefaultName() {
-			return new StringTextComponent("test_machine");
+			return new StringTextComponent("mach_basin");
 		}
 
 		@Override
@@ -260,12 +265,12 @@ public class TestMachineBlock extends CrmodModElements.ModElement {
 
 		@Override
 		public Container createMenu(int id, PlayerInventory player) {
-			return new GUITestMachineGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
+			return new GUIMachBasinGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
 		}
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("TestMachine");
+			return new StringTextComponent("Chemical Basin");
 		}
 
 		@Override
@@ -280,6 +285,18 @@ public class TestMachineBlock extends CrmodModElements.ModElement {
 
 		@Override
 		public boolean isItemValidForSlot(int index, ItemStack stack) {
+			if (index == 5)
+				return false;
+			if (index == 6)
+				return false;
+			if (index == 7)
+				return false;
+			if (index == 8)
+				return false;
+			if (index == 9)
+				return false;
+			if (index == 10)
+				return false;
 			return true;
 		}
 
@@ -295,6 +312,16 @@ public class TestMachineBlock extends CrmodModElements.ModElement {
 
 		@Override
 		public boolean canExtractItem(int index, ItemStack stack, Direction direction) {
+			if (index == 0)
+				return false;
+			if (index == 1)
+				return false;
+			if (index == 2)
+				return false;
+			if (index == 3)
+				return false;
+			if (index == 4)
+				return false;
 			return true;
 		}
 		private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
