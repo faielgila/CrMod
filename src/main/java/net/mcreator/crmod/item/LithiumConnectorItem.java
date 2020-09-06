@@ -15,7 +15,7 @@ public class LithiumConnectorItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:lithiumconnector")
 	public static final Item block = null;
 	public LithiumConnectorItem(CrmodModElements instance) {
-		super(instance, 87);
+		super(instance, 92);
 	}
 
 	@Override

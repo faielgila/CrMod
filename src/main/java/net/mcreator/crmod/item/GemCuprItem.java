@@ -15,7 +15,7 @@ public class GemCuprItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:gemcupr")
 	public static final Item block = null;
 	public GemCuprItem(CrmodModElements instance) {
-		super(instance, 40);
+		super(instance, 45);
 	}
 
 	@Override

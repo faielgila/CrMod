@@ -15,7 +15,7 @@ public class ChromiteItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:chromite")
 	public static final Item block = null;
 	public ChromiteItem(CrmodModElements instance) {
-		super(instance, 36);
+		super(instance, 41);
 	}
 
 	@Override

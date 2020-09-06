@@ -15,7 +15,7 @@ public class PyrolusiteItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:pyrolusite")
 	public static final Item block = null;
 	public PyrolusiteItem(CrmodModElements instance) {
-		super(instance, 50);
+		super(instance, 55);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class AxeLeadItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:axelead")
 	public static final Item block = null;
 	public AxeLeadItem(CrmodModElements instance) {
-		super(instance, 77);
+		super(instance, 80);
 	}
 
 	@Override

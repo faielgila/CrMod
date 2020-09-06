@@ -72,7 +72,7 @@ public class MachSplitterBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:machsplitter")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public MachSplitterBlock(CrmodModElements instance) {
-		super(instance, 92);
+		super(instance, 90);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

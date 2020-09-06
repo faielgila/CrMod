@@ -15,7 +15,7 @@ public class DustGoldItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:dustgold")
 	public static final Item block = null;
 	public DustGoldItem(CrmodModElements instance) {
-		super(instance, 65);
+		super(instance, 28);
 	}
 
 	@Override

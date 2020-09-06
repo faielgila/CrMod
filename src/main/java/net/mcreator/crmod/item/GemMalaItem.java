@@ -15,7 +15,7 @@ public class GemMalaItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:gemmala")
 	public static final Item block = null;
 	public GemMalaItem(CrmodModElements instance) {
-		super(instance, 47);
+		super(instance, 52);
 	}
 
 	@Override

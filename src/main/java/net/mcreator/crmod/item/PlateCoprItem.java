@@ -15,7 +15,7 @@ public class PlateCoprItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:platecopr")
 	public static final Item block = null;
 	public PlateCoprItem(CrmodModElements instance) {
-		super(instance, 38);
+		super(instance, 43);
 	}
 
 	@Override

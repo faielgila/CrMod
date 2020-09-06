@@ -24,7 +24,7 @@ public class BlockPyrtBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:blockpyrt")
 	public static final Block block = null;
 	public BlockPyrtBlock(CrmodModElements instance) {
-		super(instance, 20);
+		super(instance, 21);
 	}
 
 	@Override

@@ -15,7 +15,7 @@ public class DustBeryItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:dustbery")
 	public static final Item block = null;
 	public DustBeryItem(CrmodModElements instance) {
-		super(instance, 30);
+		super(instance, 35);
 	}
 
 	@Override

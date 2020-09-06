@@ -21,7 +21,7 @@ public class DustCarnItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:dustcarn")
 	public static final Item block = null;
 	public DustCarnItem(CrmodModElements instance) {
-		super(instance, 35);
+		super(instance, 40);
 	}
 
 	@Override

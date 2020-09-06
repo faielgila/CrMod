@@ -15,7 +15,7 @@ public class IngotAlemItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:ingotalem")
 	public static final Item block = null;
 	public IngotAlemItem(CrmodModElements instance) {
-		super(instance, 24);
+		super(instance, 29);
 	}
 
 	@Override

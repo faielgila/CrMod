@@ -15,7 +15,7 @@ public class DustSaltItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:dustsalt")
 	public static final Item block = null;
 	public DustSaltItem(CrmodModElements instance) {
-		super(instance, 52);
+		super(instance, 57);
 	}
 
 	@Override

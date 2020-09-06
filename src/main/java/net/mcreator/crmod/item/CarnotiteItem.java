@@ -15,7 +15,7 @@ public class CarnotiteItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:carnotite")
 	public static final Item block = null;
 	public CarnotiteItem(CrmodModElements instance) {
-		super(instance, 34);
+		super(instance, 39);
 	}
 
 	@Override

@@ -15,7 +15,7 @@ public class PlateIronItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:plateiron")
 	public static final Item block = null;
 	public PlateIronItem(CrmodModElements instance) {
-		super(instance, 62);
+		super(instance, 25);
 	}
 
 	@Override

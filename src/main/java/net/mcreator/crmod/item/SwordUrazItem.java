@@ -16,7 +16,7 @@ public class SwordUrazItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:sworduraz")
 	public static final Item block = null;
 	public SwordUrazItem(CrmodModElements instance) {
-		super(instance, 83);
+		super(instance, 86);
 	}
 
 	@Override

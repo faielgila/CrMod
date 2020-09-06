@@ -2,6 +2,8 @@
 package net.mcreator.crmod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
@@ -25,7 +27,7 @@ public class ElemThItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:elem_th")
 	public static final Item block = null;
 	public ElemThItem(CrmodModElements instance) {
-		super(instance, 294);
+		super(instance, 125);
 	}
 
 	@Override
@@ -54,9 +56,15 @@ public class ElemThItem extends CrmodModElements.ModElement {
 		}
 
 		@Override
+		@OnlyIn(Dist.CLIENT)
+		public boolean hasEffect(ItemStack itemstack) {
+			return true;
+		}
+
+		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("The more career-oriented nuclear element"));
+			list.add(new StringTextComponent("The career-oriented nuclear element"));
 		}
 
 		@Override

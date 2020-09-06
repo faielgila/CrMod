@@ -15,7 +15,7 @@ public class CrystalPyrtItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:crystalpyrt")
 	public static final Item block = null;
 	public CrystalPyrtItem(CrmodModElements instance) {
-		super(instance, 49);
+		super(instance, 54);
 	}
 
 	@Override

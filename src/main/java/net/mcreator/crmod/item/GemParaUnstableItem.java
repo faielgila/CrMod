@@ -15,7 +15,7 @@ public class GemParaUnstableItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:gemparaunstable")
 	public static final Item block = null;
 	public GemParaUnstableItem(CrmodModElements instance) {
-		super(instance, 48);
+		super(instance, 53);
 	}
 
 	@Override

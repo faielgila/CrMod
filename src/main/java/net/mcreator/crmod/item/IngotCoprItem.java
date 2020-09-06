@@ -15,7 +15,7 @@ public class IngotCoprItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:ingotcopr")
 	public static final Item block = null;
 	public IngotCoprItem(CrmodModElements instance) {
-		super(instance, 37);
+		super(instance, 42);
 	}
 
 	@Override

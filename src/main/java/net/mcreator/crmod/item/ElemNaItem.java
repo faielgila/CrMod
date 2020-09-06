@@ -15,7 +15,7 @@ public class ElemNaItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:elemna")
 	public static final Item block = null;
 	public ElemNaItem(CrmodModElements instance) {
-		super(instance, 103);
+		super(instance, 107);
 	}
 
 	@Override

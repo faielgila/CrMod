@@ -16,7 +16,7 @@ public class SwordLeadItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:swordlead")
 	public static final Item block = null;
 	public SwordLeadItem(CrmodModElements instance) {
-		super(instance, 75);
+		super(instance, 78);
 	}
 
 	@Override

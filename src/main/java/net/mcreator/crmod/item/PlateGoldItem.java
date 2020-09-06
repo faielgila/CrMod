@@ -15,7 +15,7 @@ public class PlateGoldItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:plategold")
 	public static final Item block = null;
 	public PlateGoldItem(CrmodModElements instance) {
-		super(instance, 64);
+		super(instance, 27);
 	}
 
 	@Override

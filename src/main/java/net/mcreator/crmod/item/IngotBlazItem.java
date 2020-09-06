@@ -15,7 +15,7 @@ public class IngotBlazItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:ingotblaz")
 	public static final Item block = null;
 	public IngotBlazItem(CrmodModElements instance) {
-		super(instance, 31);
+		super(instance, 36);
 	}
 
 	@Override

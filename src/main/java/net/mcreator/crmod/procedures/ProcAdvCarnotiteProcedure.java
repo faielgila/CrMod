@@ -25,7 +25,7 @@ import java.util.HashMap;
 @CrmodModElements.ModElement.Tag
 public class ProcAdvCarnotiteProcedure extends CrmodModElements.ModElement {
 	public ProcAdvCarnotiteProcedure(CrmodModElements instance) {
-		super(instance, 282);
+		super(instance, 283);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

@@ -15,7 +15,7 @@ public class GemAzurItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:gemazur")
 	public static final Item block = null;
 	public GemAzurItem(CrmodModElements instance) {
-		super(instance, 27);
+		super(instance, 32);
 	}
 
 	@Override

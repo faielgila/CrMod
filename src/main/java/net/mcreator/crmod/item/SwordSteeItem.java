@@ -16,7 +16,7 @@ public class SwordSteeItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:swordstee")
 	public static final Item block = null;
 	public SwordSteeItem(CrmodModElements instance) {
-		super(instance, 79);
+		super(instance, 82);
 	}
 
 	@Override

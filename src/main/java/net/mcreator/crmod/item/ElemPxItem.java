@@ -2,6 +2,8 @@
 package net.mcreator.crmod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.item.ItemStack;
@@ -21,7 +23,7 @@ public class ElemPxItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:elempx")
 	public static final Item block = null;
 	public ElemPxItem(CrmodModElements instance) {
-		super(instance, 123);
+		super(instance, 128);
 	}
 
 	@Override
@@ -47,6 +49,12 @@ public class ElemPxItem extends CrmodModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
+		}
+
+		@Override
+		@OnlyIn(Dist.CLIENT)
+		public boolean hasEffect(ItemStack itemstack) {
+			return true;
 		}
 
 		@Override

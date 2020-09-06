@@ -15,7 +15,7 @@ public class CrystalLithItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:crystallith")
 	public static final Item block = null;
 	public CrystalLithItem(CrmodModElements instance) {
-		super(instance, 45);
+		super(instance, 50);
 	}
 
 	@Override

@@ -11,7 +11,7 @@ import java.util.Map;
 @CrmodModElements.ModElement.Tag
 public class ProcElemRadiationProcedure extends CrmodModElements.ModElement {
 	public ProcElemRadiationProcedure(CrmodModElements instance) {
-		super(instance, 215);
+		super(instance, 216);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

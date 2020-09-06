@@ -72,7 +72,7 @@ public class MachBasinBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:mach_basin")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public MachBasinBlock(CrmodModElements instance) {
-		super(instance, 295);
+		super(instance, 91);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

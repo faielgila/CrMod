@@ -16,7 +16,7 @@ public class ShovelAlemItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:shovelalem")
 	public static final Item block = null;
 	public ShovelAlemItem(CrmodModElements instance) {
-		super(instance, 70);
+		super(instance, 73);
 	}
 
 	@Override

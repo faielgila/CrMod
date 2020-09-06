@@ -15,7 +15,7 @@ public class CrystalSaltItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:crystalsalt")
 	public static final Item block = null;
 	public CrystalSaltItem(CrmodModElements instance) {
-		super(instance, 51);
+		super(instance, 56);
 	}
 
 	@Override
