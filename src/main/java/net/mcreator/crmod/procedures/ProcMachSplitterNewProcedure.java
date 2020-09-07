@@ -21,8 +21,6 @@ public class ProcMachSplitterNewProcedure extends CrmodModElements.ModElement {
 	public static void executeProcedure(Map<String, Object> dependencies){
 		System.out.println("Using abstracted code now!");
 		
-		System.out.println("Initializing processing lookup table...");
-		
 		// Throw a dependency error if entity is left empty
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure SimpProc!");

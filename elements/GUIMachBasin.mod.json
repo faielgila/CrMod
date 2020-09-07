@@ -94,28 +94,6 @@
       {
         "type": "outputslot",
         "data": {
-          "id": 5,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #5",
-          "x": 336,
-          "y": 168
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
-          "id": 6,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #6",
-          "x": 426,
-          "y": 132
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
           "id": 7,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
@@ -161,10 +139,13 @@
         "type": "button",
         "data": {
           "text": "Process",
+          "onClick": {
+            "name": "ProcMachBasin"
+          },
           "width": 108,
           "height": 40,
           "name": "Process",
-          "x": 480,
+          "x": 426,
           "y": 186
         }
       },
@@ -182,8 +163,47 @@
         "data": {
           "image": "chemical_basin_-_arrow_b.png",
           "name": "chemical_basin_-_arrow_b.png",
-          "x": 462,
-          "y": 96
+          "x": 464,
+          "y": 98
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 11,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #11",
+          "x": 552,
+          "y": 168
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 6,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #6",
+          "x": 426,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 5,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #5",
+          "x": 336,
+          "y": 168
         }
       }
     ]

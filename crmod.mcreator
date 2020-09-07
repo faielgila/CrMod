@@ -2393,6 +2393,59 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mach_basin"
+    },
+    {
+      "name": "RecMachBasin",
+      "type": "recipe",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_mach_basin"
+    },
+    {
+      "name": "AnodeCathode",
+      "type": "item",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anode_cathode"
+    },
+    {
+      "name": "RecAnodeCathode",
+      "type": "recipe",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_anode_cathode"
+    },
+    {
+      "name": "ProcMachBasin",
+      "type": "procedure",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "proc_mach_basin",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChemTSP",
+      "type": "item",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chem_tsp"
     }
   ],
   "variable_elements": [],
@@ -2528,6 +2581,7 @@
       "tile.orepyrt.name": "Pyrite Ore",
       "item.crmod.elemli": "Lithium Atoms",
       "item.dustalem.name": "Alemonium Dust",
+      "item.crmod.anode_cathode": "Electrolysis Anode-Cathode Pair",
       "item.gemmala.name": "Malachite Gem",
       "item.dustgold.name": "Gold Dust",
       "item.elemli.name": "Lithium Atoms",
@@ -2580,6 +2634,7 @@
       "item.crmod.elemv": "Vanadium Atoms",
       "item.crmod.elemu": "Uranium Atoms",
       "item.axeblaz.name": "Blaze Axe",
+      "item.crmod.chem_tsp": "TSP Solution",
       "item.elemu.name": "Uranium Atoms",
       "block.crmod.oresalt": "Salt Ore",
       "item.crmod.ingoturac": "Urac Ingot",

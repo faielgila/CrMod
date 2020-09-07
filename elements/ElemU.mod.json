@@ -19,7 +19,9 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInfo": [
+      "§a§nRadioactive"
+    ],
     "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

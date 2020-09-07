@@ -35,6 +35,7 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.crmod.procedures.ProcMachBasinProcedure;
 import net.mcreator.crmod.CrmodModElements;
 import net.mcreator.crmod.CrmodMod;
 
@@ -82,7 +83,7 @@ public class GUIMachBasinGui extends CrmodModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(11);
+			this.internal = new ItemStackHandler(12);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -130,18 +131,6 @@ public class GUIMachBasinGui extends CrmodModElements.ModElement {
 			}));
 			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 25, 48) {
 			}));
-			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 43, 48) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 88, 30) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
 			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 133, 12) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
@@ -165,6 +154,16 @@ public class GUIMachBasinGui extends CrmodModElements.ModElement {
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
+			}));
+			this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 151, 48) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
+			}));
+			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 88, 30) {
+			}));
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 43, 48) {
 			}));
 			int si;
 			int sj;
@@ -191,18 +190,18 @@ public class GUIMachBasinGui extends CrmodModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 11) {
-					if (!this.mergeItemStack(itemstack1, 11, this.inventorySlots.size(), true)) {
+				if (index < 12) {
+					if (!this.mergeItemStack(itemstack1, 12, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 11, false)) {
-					if (index < 11 + 27) {
-						if (!this.mergeItemStack(itemstack1, 11 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 12, false)) {
+					if (index < 12 + 27) {
+						if (!this.mergeItemStack(itemstack1, 12 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 11, 11 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 12, 12 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -360,7 +359,7 @@ public class GUIMachBasinGui extends CrmodModElements.ModElement {
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("crmod:textures/chemical_basin_-_arrow_a.png"));
 			this.blit(this.guiLeft + 61, this.guiTop + 29, 0, 0, 256, 256);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("crmod:textures/chemical_basin_-_arrow_b.png"));
-			this.blit(this.guiLeft + 106, this.guiTop + 11, 0, 0, 256, 256);
+			this.blit(this.guiLeft + 107, this.guiTop + 12, 0, 0, 256, 256);
 		}
 
 		@Override
@@ -392,7 +391,7 @@ public class GUIMachBasinGui extends CrmodModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 115, this.guiTop + 56, 54, 20, "Process", e -> {
+			this.addButton(new Button(this.guiLeft + 88, this.guiTop + 56, 54, 20, "Process", e -> {
 				CrmodMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
 			}));
@@ -485,6 +484,13 @@ public class GUIMachBasinGui extends CrmodModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcMachBasinProcedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {

@@ -6,9 +6,12 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.Entity;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.crmod.procedures.ProcElemRadiationProcedure;
@@ -16,6 +19,7 @@ import net.mcreator.crmod.itemgroup.TabElementsItemGroup;
 import net.mcreator.crmod.CrmodModElements;
 
 import java.util.Map;
+import java.util.List;
 import java.util.HashMap;
 
 @CrmodModElements.ModElement.Tag
@@ -55,6 +59,12 @@ public class ElemUItem extends CrmodModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		public boolean hasEffect(ItemStack itemstack) {
 			return true;
+		}
+
+		@Override
+		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add(new StringTextComponent("\u00A7a\u00A7nRadioactive"));
 		}
 
 		@Override

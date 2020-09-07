@@ -3,13 +3,13 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "90_-_thorium",
+    "texture": "electrolysis_anode-cathode_pair",
     "customModelName": "Normal",
-    "name": "Thorium Atoms",
+    "name": "Electrolysis Anode-Cathode Pair",
     "creativeTab": {
-      "value": "CUSTOM:TabElements"
+      "value": "CUSTOM:TabElectronics"
     },
-    "stackSize": 64,
+    "stackSize": 8,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -20,15 +20,11 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "§a§nRadioactive",
-      "§oThe career-oriented nuclear element"
+      "§oSteel-Lead"
     ],
-    "hasGlow": true,
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64,
-    "onItemInInventoryTick": {
-      "name": "ProcElemRadiation"
-    }
+    "inventoryStackSize": 64
   }
 }

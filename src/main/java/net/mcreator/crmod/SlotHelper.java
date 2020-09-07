@@ -1,6 +1,7 @@
 package net.mcreator.crmod;
 
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.container.Slot;
 import net.minecraft.inventory.container.Container;
@@ -56,6 +57,14 @@ public class SlotHelper {
 	public void setItemStackInSlot(int slotID, ItemStack itemStack){
 		((Slot) invobjMap.get(slotID)).putStack(itemStack);
 		currentPlayer.detectAndSendChanges();
+	}
+	
+	/**
+	 * Gets the item in a given slot.
+	 * @param slotID slot ID defined in the GUI
+	 */
+	public Item getItem(int slotID) {
+		return getItemStackInSlot(slotID).getItem();
 	}
 	
 	/**

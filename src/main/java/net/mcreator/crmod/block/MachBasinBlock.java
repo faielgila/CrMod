@@ -202,7 +202,7 @@ public class MachBasinBlock extends CrmodModElements.ModElement {
 	}
 
 	public static class CustomTileEntity extends LockableLootTileEntity implements ISidedInventory {
-		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(11, ItemStack.EMPTY);
+		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(12, ItemStack.EMPTY);
 		protected CustomTileEntity() {
 			super(tileEntityType);
 		}
@@ -285,10 +285,6 @@ public class MachBasinBlock extends CrmodModElements.ModElement {
 
 		@Override
 		public boolean isItemValidForSlot(int index, ItemStack stack) {
-			if (index == 5)
-				return false;
-			if (index == 6)
-				return false;
 			if (index == 7)
 				return false;
 			if (index == 8)
@@ -296,6 +292,8 @@ public class MachBasinBlock extends CrmodModElements.ModElement {
 			if (index == 9)
 				return false;
 			if (index == 10)
+				return false;
+			if (index == 11)
 				return false;
 			return true;
 		}
@@ -321,6 +319,10 @@ public class MachBasinBlock extends CrmodModElements.ModElement {
 			if (index == 3)
 				return false;
 			if (index == 4)
+				return false;
+			if (index == 5)
+				return false;
+			if (index == 6)
 				return false;
 			return true;
 		}

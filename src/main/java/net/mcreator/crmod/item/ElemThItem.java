@@ -64,7 +64,8 @@ public class ElemThItem extends CrmodModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("The career-oriented nuclear element"));
+			list.add(new StringTextComponent("\u00A7a\u00A7nRadioactive"));
+			list.add(new StringTextComponent("\u00A7oThe career-oriented nuclear element"));
 		}
 
 		@Override

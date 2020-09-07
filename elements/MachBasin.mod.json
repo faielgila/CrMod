@@ -2,12 +2,12 @@
   "_fv": 10,
   "_type": "block",
   "definition": {
-    "texture": "chemical_basin_-_side_back_front_bottom",
+    "texture": "chemical_basin_-_bottom",
     "textureTop": "chemical_basin_-_top",
-    "textureLeft": "chemical_basin_-_side_back_front_bottom",
-    "textureFront": "chemical_basin_-_side_back_front_bottom",
-    "textureRight": "chemical_basin_-_side_back_front_bottom",
-    "textureBack": "chemical_basin_-_side_back_front_bottom",
+    "textureLeft": "chemical_basin_-_sides",
+    "textureFront": "chemical_basin_-_sides",
+    "textureRight": "chemical_basin_-_sides",
+    "textureBack": "chemical_basin_-_sides",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 1,
@@ -74,24 +74,25 @@
     "hasInventory": true,
     "guiBoundTo": "GUIMachBasin",
     "openGUIOnRightClick": true,
-    "inventorySize": 11,
+    "inventorySize": 12,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [
-      5,
-      6,
       7,
       8,
       9,
-      10
+      10,
+      11
     ],
     "inventoryInSlotIDs": [
       0,
       1,
       2,
       3,
-      4
+      4,
+      5,
+      6
     ],
     "hasEnergyStorage": false,
     "energyInitial": 0,

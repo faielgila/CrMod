@@ -1,0 +1,23 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5"
+  ],
+  "key": {
+    "1": {
+      "item": "crmod:ingotcopr"
+    },
+    "3": {
+      "item": "crmod:platestee"
+    },
+    "5": {
+      "item": "crmod:platelead"
+    }
+  },
+  "result": {
+    "item": "crmod:anode_cathode",
+    "count": 1
+  }
+}
