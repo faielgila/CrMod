@@ -1,0 +1,16 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crmod:gembery"
+    },
+    {
+      "item": "crmod:hand_grinder"
+    }
+  ],
+  "result": {
+    "item": "crmod:dustbery",
+    "count": 1
+  }
+}

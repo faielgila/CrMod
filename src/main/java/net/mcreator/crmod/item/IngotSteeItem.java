@@ -15,7 +15,7 @@ public class IngotSteeItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:ingotstee")
 	public static final Item block = null;
 	public IngotSteeItem(CrmodModElements instance) {
-		super(instance, 58);
+		super(instance, 60);
 	}
 
 	@Override

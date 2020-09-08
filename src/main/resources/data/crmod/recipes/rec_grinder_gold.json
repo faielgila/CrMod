@@ -1,0 +1,16 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "crmod:hand_grinder"
+    }
+  ],
+  "result": {
+    "item": "crmod:dustgold",
+    "count": 1
+  }
+}

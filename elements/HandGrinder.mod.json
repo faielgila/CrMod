@@ -1,0 +1,28 @@
+{
+  "_fv": 10,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "handheld_grinder",
+    "customModelName": "Normal",
+    "name": "Handheld Grinder",
+    "creativeTab": {
+      "value": "CUSTOM:TabTools"
+    },
+    "stackSize": 2,
+    "enchantability": 0,
+    "useDuration": 20,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64
+  }
+}

@@ -39,7 +39,7 @@ public class OreSulfBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:oresulf")
 	public static final Block block = null;
 	public OreSulfBlock(CrmodModElements instance) {
-		super(instance, 14);
+		super(instance, 15);
 	}
 
 	@Override

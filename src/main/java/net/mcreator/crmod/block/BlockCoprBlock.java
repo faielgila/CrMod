@@ -24,7 +24,7 @@ public class BlockCoprBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:blockcopr")
 	public static final Block block = null;
 	public BlockCoprBlock(CrmodModElements instance) {
-		super(instance, 19);
+		super(instance, 20);
 	}
 
 	@Override

@@ -45,7 +45,7 @@ public class SlotHelper {
 	 * Gets the ItemStack from a slot
 	 * @param slotID slot ID defined in the GUI
 	 */
-	public ItemStack getItemStackInSlot(int slotID) {
+	public ItemStack getItemStack(int slotID) {
 		return current != null && invobj != null && invobjMap != null ? ((Slot) invobjMap.get(slotID)).getStack() : ItemStack.EMPTY;
 	}
 	
@@ -54,7 +54,7 @@ public class SlotHelper {
 	 * @param slotID slot ID defined in the GUI
 	 * @param itemStack ItemStack to place into the slot
 	 */
-	public void setItemStackInSlot(int slotID, ItemStack itemStack){
+	public void setItemStack(int slotID, ItemStack itemStack){
 		((Slot) invobjMap.get(slotID)).putStack(itemStack);
 		currentPlayer.detectAndSendChanges();
 	}
@@ -64,23 +64,23 @@ public class SlotHelper {
 	 * @param slotID slot ID defined in the GUI
 	 */
 	public Item getItem(int slotID) {
-		return getItemStackInSlot(slotID).getItem();
+		return getItemStack(slotID).getItem();
 	}
 	
 	/**
 	 * Gets the size of the ItemStack in a given slot.
 	 * @param slotID slot ID defined in the GUI
 	 */
-	public int getItemAmountInSlot(int slotID) {
-		return getItemStackInSlot(slotID) != ItemStack.EMPTY ? (int) getItemStackInSlot(slotID).getCount() : 0;
+	public int getItemAmount(int slotID) {
+		return getItemStack(slotID) != ItemStack.EMPTY ? (int) getItemStack(slotID).getCount() : 0;
 	}
 	
 	/**
 	 * Clears the ItemStack in a given slot. Equivalent to replacing the current stack with the empty ItemStack.
-	 * @param slotID
+	 * @param slotID slot ID defined in the GUI
 	 */
 	public void clearItemSlot(int slotID){
-		setItemStackInSlot(slotID, ItemStack.EMPTY);
+		setItemStack(slotID, ItemStack.EMPTY);
 		currentPlayer.detectAndSendChanges();
 	}
 	
@@ -89,8 +89,8 @@ public class SlotHelper {
 	 * @param slotID slot ID defined in the GUI
 	 * @param increaseBy amount to increase the current stack size by; can be positive or negative
 	 */
-	public void increaseItemAmountInSlot(int slotID, int increaseBy) {
-		getItemStackInSlot(slotID).setCount(getItemAmountInSlot(slotID) + increaseBy);
+	public void increaseItemAmount(int slotID, int increaseBy) {
+		getItemStack(slotID).setCount(getItemAmount(slotID) + increaseBy);
 		currentPlayer.detectAndSendChanges();
 	}
 }

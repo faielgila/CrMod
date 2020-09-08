@@ -15,7 +15,7 @@ public class DustIronItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:dustiron")
 	public static final Item block = null;
 	public DustIronItem(CrmodModElements instance) {
-		super(instance, 26);
+		super(instance, 27);
 	}
 
 	@Override

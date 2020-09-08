@@ -1,0 +1,30 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:cobblestone"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "minecraft:cobblestone"
+    },
+    "7": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "crmod:hand_grinder",
+    "count": 1
+  }
+}

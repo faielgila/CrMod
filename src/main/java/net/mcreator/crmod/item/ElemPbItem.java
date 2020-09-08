@@ -15,7 +15,7 @@ public class ElemPbItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:elempb")
 	public static final Item block = null;
 	public ElemPbItem(CrmodModElements instance) {
-		super(instance, 124);
+		super(instance, 128);
 	}
 
 	@Override

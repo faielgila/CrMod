@@ -13,7 +13,7 @@ import net.mcreator.crmod.CrmodModElements;
 @CrmodModElements.ModElement.Tag
 public class TabToolsItemGroup extends CrmodModElements.ModElement {
 	public TabToolsItemGroup(CrmodModElements instance) {
-		super(instance, 137);
+		super(instance, 154);
 	}
 
 	@Override

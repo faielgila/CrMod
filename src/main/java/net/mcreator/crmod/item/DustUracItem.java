@@ -15,7 +15,7 @@ public class DustUracItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:dusturac")
 	public static final Item block = null;
 	public DustUracItem(CrmodModElements instance) {
-		super(instance, 65);
+		super(instance, 67);
 	}
 
 	@Override

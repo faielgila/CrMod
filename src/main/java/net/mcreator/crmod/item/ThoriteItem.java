@@ -21,7 +21,7 @@ public class ThoriteItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:thorite")
 	public static final Item block = null;
 	public ThoriteItem(CrmodModElements instance) {
-		super(instance, 62);
+		super(instance, 64);
 	}
 
 	@Override

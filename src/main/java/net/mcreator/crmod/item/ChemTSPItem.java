@@ -21,7 +21,7 @@ public class ChemTSPItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:chem_tsp")
 	public static final Item block = null;
 	public ChemTSPItem(CrmodModElements instance) {
-		super(instance, 293);
+		super(instance, 137);
 	}
 
 	@Override

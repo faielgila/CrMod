@@ -24,7 +24,7 @@ public class BlockLeadBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:blocklead")
 	public static final Block block = null;
 	public BlockLeadBlock(CrmodModElements instance) {
-		super(instance, 20);
+		super(instance, 21);
 	}
 
 	@Override

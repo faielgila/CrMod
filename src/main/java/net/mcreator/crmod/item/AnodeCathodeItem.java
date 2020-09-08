@@ -21,7 +21,7 @@ public class AnodeCathodeItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:anode_cathode")
 	public static final Item block = null;
 	public AnodeCathodeItem(CrmodModElements instance) {
-		super(instance, 291);
+		super(instance, 100);
 	}
 
 	@Override

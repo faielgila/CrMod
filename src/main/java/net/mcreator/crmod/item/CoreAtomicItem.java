@@ -15,7 +15,7 @@ public class CoreAtomicItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:coreatomic")
 	public static final Item block = null;
 	public CoreAtomicItem(CrmodModElements instance) {
-		super(instance, 93);
+		super(instance, 96);
 	}
 
 	@Override

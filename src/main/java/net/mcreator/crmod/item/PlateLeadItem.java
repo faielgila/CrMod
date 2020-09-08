@@ -15,7 +15,7 @@ public class PlateLeadItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:platelead")
 	public static final Item block = null;
 	public PlateLeadItem(CrmodModElements instance) {
-		super(instance, 48);
+		super(instance, 50);
 	}
 
 	@Override

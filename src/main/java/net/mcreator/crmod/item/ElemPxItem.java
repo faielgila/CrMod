@@ -23,7 +23,7 @@ public class ElemPxItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:elempx")
 	public static final Item block = null;
 	public ElemPxItem(CrmodModElements instance) {
-		super(instance, 128);
+		super(instance, 132);
 	}
 
 	@Override

@@ -15,7 +15,7 @@ public class CoreStablizerItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:corestablizer")
 	public static final Item block = null;
 	public CoreStablizerItem(CrmodModElements instance) {
-		super(instance, 94);
+		super(instance, 97);
 	}
 
 	@Override

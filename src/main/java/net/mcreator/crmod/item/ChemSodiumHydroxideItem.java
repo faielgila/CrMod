@@ -21,7 +21,7 @@ public class ChemSodiumHydroxideItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:chem_sodium_hydroxide")
 	public static final Item block = null;
 	public ChemSodiumHydroxideItem(CrmodModElements instance) {
-		super(instance, 132);
+		super(instance, 136);
 	}
 
 	@Override

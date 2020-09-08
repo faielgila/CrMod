@@ -39,7 +39,7 @@ public class OreLithBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:orelith")
 	public static final Block block = null;
 	public OreLithBlock(CrmodModElements instance) {
-		super(instance, 8);
+		super(instance, 9);
 	}
 
 	@Override

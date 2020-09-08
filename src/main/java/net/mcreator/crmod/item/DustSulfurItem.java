@@ -15,7 +15,7 @@ public class DustSulfurItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:dustsulfur")
 	public static final Item block = null;
 	public DustSulfurItem(CrmodModElements instance) {
-		super(instance, 61);
+		super(instance, 63);
 	}
 
 	@Override

@@ -15,7 +15,7 @@ public class DustAlemItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:dustalem")
 	public static final Item block = null;
 	public DustAlemItem(CrmodModElements instance) {
-		super(instance, 31);
+		super(instance, 32);
 	}
 
 	@Override

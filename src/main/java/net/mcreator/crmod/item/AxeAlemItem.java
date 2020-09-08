@@ -16,7 +16,7 @@ public class AxeAlemItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:axealem")
 	public static final Item block = null;
 	public AxeAlemItem(CrmodModElements instance) {
-		super(instance, 72);
+		super(instance, 75);
 	}
 
 	@Override

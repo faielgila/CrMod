@@ -31,18 +31,18 @@ public class ProcMachSplitterNewProcedure extends CrmodModElements.ModElement {
 		if (!areItemSlotsValid(sltHlpr)) return;
 		
 		System.out.println("Beginning item processing...");
-		processItem(sltHlpr, sltHlpr.getItemStackInSlot(0).getItem());
+		processItem(sltHlpr, sltHlpr.getItemStack(0).getItem());
 	}
 	
 	public static boolean isPowerInSlotValid  (SlotHelper slotHelper) {
-		return slotHelper.getItemStackInSlot(7).getItem() == BatteryItem.block;
+		return slotHelper.getItemStack(7).getItem() == BatteryItem.block;
 	}
 	public static boolean isPowerOutSlotValid (SlotHelper slotHelper) {
-		ItemStack slotItemStack = slotHelper.getItemStackInSlot(8);
+		ItemStack slotItemStack = slotHelper.getItemStack(8);
 		return slotItemStack.getItem() == BatteryUsedItem.block || slotItemStack == ItemStack.EMPTY;
 	}
 	public static boolean isItemInSlotValid   (SlotHelper slotHelper) {
-		ItemStack slotItemStack = slotHelper.getItemStackInSlot(0);
+		ItemStack slotItemStack = slotHelper.getItemStack(0);
 		return slotItemStack != ItemStack.EMPTY;
 	}
 	public static boolean areItemSlotsValid   (SlotHelper slotHelper) {
@@ -370,7 +370,7 @@ public class ProcMachSplitterNewProcedure extends CrmodModElements.ModElement {
 		int slotID;
 		for (int i = 0; i < itemsOut.length; i++) {
 			slotID = i + 1;
-			SlotStatus slotStatus = getSlotStatusForItem(slotHelper.getItemStackInSlot(slotID), itemsOut[i], amountsOut[i]);
+			SlotStatus slotStatus = getSlotStatusForItem(slotHelper.getItemStack(slotID), itemsOut[i], amountsOut[i]);
 			System.out.println("Slot " + slotID + " Status: " + slotStatus);
 			if (slotStatus == SlotStatus.noSpace) { System.out.println("Slot full! Aborting process..."); return; }
 			if (slotStatus == SlotStatus.itemMismatch) { System.out.println("Slot taken! Aborting process..."); return;	}
@@ -378,32 +378,32 @@ public class ProcMachSplitterNewProcedure extends CrmodModElements.ModElement {
 		
 		System.out.println("Processing item...");
 		
-		SlotStatus batteryOutSlotStatus = getSlotStatusForItem(slotHelper.getItemStackInSlot(8), BatteryUsedItem.block, 1);
+		SlotStatus batteryOutSlotStatus = getSlotStatusForItem(slotHelper.getItemStack(8), BatteryUsedItem.block, 1);
 		switch (batteryOutSlotStatus) {
 			case itemMatch:
-				slotHelper.increaseItemAmountInSlot(7, -1);
-				slotHelper.increaseItemAmountInSlot(8, 1);
+				slotHelper.increaseItemAmount(7, -1);
+				slotHelper.increaseItemAmount(8, 1);
 				break;
 			case empty:
-				slotHelper.increaseItemAmountInSlot(7, -1);
-				slotHelper.setItemStackInSlot(8, new ItemStack(BatteryUsedItem.block, 1));
+				slotHelper.increaseItemAmount(7, -1);
+				slotHelper.setItemStack(8, new ItemStack(BatteryUsedItem.block, 1));
 				break;
 		}
 		
 		for (int i = 0; i < itemsOut.length; i++) {
 			slotID = i + 1;
-			SlotStatus outputSlotStatus = getSlotStatusForItem(slotHelper.getItemStackInSlot(slotID), itemsOut[i], amountsOut[i]);
+			SlotStatus outputSlotStatus = getSlotStatusForItem(slotHelper.getItemStack(slotID), itemsOut[i], amountsOut[i]);
 			switch (outputSlotStatus) {
 				case itemMatch:
-					slotHelper.increaseItemAmountInSlot(slotID, amountsOut[i]);
+					slotHelper.increaseItemAmount(slotID, amountsOut[i]);
 					break;
 				case empty:
-					slotHelper.setItemStackInSlot(slotID, new ItemStack(itemsOut[i], amountsOut[i]));
+					slotHelper.setItemStack(slotID, new ItemStack(itemsOut[i], amountsOut[i]));
 					break;
 			}
 		}
 		
-		slotHelper.increaseItemAmountInSlot(0, -1);
+		slotHelper.increaseItemAmount(0, -1);
 	}
 	static SlotStatus getSlotStatusForItem (ItemStack itemStack, Item item, int amount) {
 		if (itemStack == ItemStack.EMPTY) return SlotStatus.empty;

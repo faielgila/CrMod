@@ -24,7 +24,7 @@ import java.util.HashMap;
 @CrmodModElements.ModElement.Tag
 public class ProcAdvBlazeProcedure extends CrmodModElements.ModElement {
 	public ProcAdvBlazeProcedure(CrmodModElements instance) {
-		super(instance, 274);
+		super(instance, 291);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

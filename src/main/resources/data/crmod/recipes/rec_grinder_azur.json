@@ -1,0 +1,16 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crmod:gemazur"
+    },
+    {
+      "item": "crmod:hand_grinder"
+    }
+  ],
+  "result": {
+    "item": "crmod:dustazur",
+    "count": 1
+  }
+}

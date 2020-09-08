@@ -15,7 +15,7 @@ public class GemBeryItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:gembery")
 	public static final Item block = null;
 	public GemBeryItem(CrmodModElements instance) {
-		super(instance, 34);
+		super(instance, 35);
 	}
 
 	@Override

@@ -15,7 +15,7 @@ public class IngotLeadItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:ingotlead")
 	public static final Item block = null;
 	public IngotLeadItem(CrmodModElements instance) {
-		super(instance, 47);
+		super(instance, 49);
 	}
 
 	@Override

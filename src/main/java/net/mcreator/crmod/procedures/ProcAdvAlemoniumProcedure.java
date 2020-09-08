@@ -25,7 +25,7 @@ import java.util.HashMap;
 @CrmodModElements.ModElement.Tag
 public class ProcAdvAlemoniumProcedure extends CrmodModElements.ModElement {
 	public ProcAdvAlemoniumProcedure(CrmodModElements instance) {
-		super(instance, 276);
+		super(instance, 293);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

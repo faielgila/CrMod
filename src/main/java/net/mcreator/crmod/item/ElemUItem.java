@@ -27,7 +27,7 @@ public class ElemUItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:elemu")
 	public static final Item block = null;
 	public ElemUItem(CrmodModElements instance) {
-		super(instance, 126);
+		super(instance, 130);
 	}
 
 	@Override

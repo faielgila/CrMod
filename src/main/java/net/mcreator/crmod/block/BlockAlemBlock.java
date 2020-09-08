@@ -24,7 +24,7 @@ public class BlockAlemBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:blockalem")
 	public static final Block block = null;
 	public BlockAlemBlock(CrmodModElements instance) {
-		super(instance, 17);
+		super(instance, 18);
 	}
 
 	@Override

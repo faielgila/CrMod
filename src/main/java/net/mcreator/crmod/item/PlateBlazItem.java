@@ -15,7 +15,7 @@ public class PlateBlazItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:plateblaz")
 	public static final Item block = null;
 	public PlateBlazItem(CrmodModElements instance) {
-		super(instance, 37);
+		super(instance, 38);
 	}
 
 	@Override

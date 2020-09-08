@@ -15,7 +15,7 @@ public class HammerIronItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:hammeriron")
 	public static final Item block = null;
 	public HammerIronItem(CrmodModElements instance) {
-		super(instance, 69);
+		super(instance, 71);
 	}
 
 	@Override

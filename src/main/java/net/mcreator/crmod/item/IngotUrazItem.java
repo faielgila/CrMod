@@ -15,7 +15,7 @@ public class IngotUrazItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:ingoturaz")
 	public static final Item block = null;
 	public IngotUrazItem(CrmodModElements instance) {
-		super(instance, 66);
+		super(instance, 68);
 	}
 
 	@Override

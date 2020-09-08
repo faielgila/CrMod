@@ -39,7 +39,7 @@ public class OreMalaBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:oremala")
 	public static final Block block = null;
 	public OreMalaBlock(CrmodModElements instance) {
-		super(instance, 9);
+		super(instance, 10);
 	}
 
 	@Override

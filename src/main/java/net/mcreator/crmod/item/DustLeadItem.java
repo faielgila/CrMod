@@ -15,7 +15,7 @@ public class DustLeadItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:dustlead")
 	public static final Item block = null;
 	public DustLeadItem(CrmodModElements instance) {
-		super(instance, 49);
+		super(instance, 51);
 	}
 
 	@Override

@@ -31,7 +31,7 @@ public class BlockUrazBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:blockuraz")
 	public static final Block block = null;
 	public BlockUrazBlock(CrmodModElements instance) {
-		super(instance, 24);
+		super(instance, 25);
 	}
 
 	@Override

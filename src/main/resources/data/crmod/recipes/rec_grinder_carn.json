@@ -1,0 +1,16 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "crmod:carnotite"
+    },
+    {
+      "item": "crmod:hand_grinder"
+    }
+  ],
+  "result": {
+    "item": "crmod:dustcarn",
+    "count": 1
+  }
+}

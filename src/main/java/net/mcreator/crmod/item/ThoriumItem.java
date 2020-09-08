@@ -21,7 +21,7 @@ public class ThoriumItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:thorium")
 	public static final Item block = null;
 	public ThoriumItem(CrmodModElements instance) {
-		super(instance, 63);
+		super(instance, 65);
 	}
 
 	@Override

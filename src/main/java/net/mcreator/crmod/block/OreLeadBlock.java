@@ -38,7 +38,7 @@ public class OreLeadBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:orelead")
 	public static final Block block = null;
 	public OreLeadBlock(CrmodModElements instance) {
-		super(instance, 7);
+		super(instance, 8);
 	}
 
 	@Override

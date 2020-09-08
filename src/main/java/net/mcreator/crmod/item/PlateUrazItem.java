@@ -15,7 +15,7 @@ public class PlateUrazItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:plateuraz")
 	public static final Item block = null;
 	public PlateUrazItem(CrmodModElements instance) {
-		super(instance, 67);
+		super(instance, 69);
 	}
 
 	@Override

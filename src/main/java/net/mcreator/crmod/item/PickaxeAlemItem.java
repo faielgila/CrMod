@@ -16,7 +16,7 @@ public class PickaxeAlemItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:pickaxealem")
 	public static final Item block = null;
 	public PickaxeAlemItem(CrmodModElements instance) {
-		super(instance, 71);
+		super(instance, 74);
 	}
 
 	@Override

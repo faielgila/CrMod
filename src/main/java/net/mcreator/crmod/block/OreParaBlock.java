@@ -39,7 +39,7 @@ public class OreParaBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:orepara")
 	public static final Block block = null;
 	public OreParaBlock(CrmodModElements instance) {
-		super(instance, 10);
+		super(instance, 11);
 	}
 
 	@Override

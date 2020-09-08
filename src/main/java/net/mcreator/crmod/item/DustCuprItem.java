@@ -15,7 +15,7 @@ public class DustCuprItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:dustcupr")
 	public static final Item block = null;
 	public DustCuprItem(CrmodModElements instance) {
-		super(instance, 46);
+		super(instance, 47);
 	}
 
 	@Override

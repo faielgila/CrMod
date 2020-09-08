@@ -15,7 +15,7 @@ public class BatteryUsedItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:batteryused")
 	public static final Item block = null;
 	public BatteryUsedItem(CrmodModElements instance) {
-		super(instance, 96);
+		super(instance, 99);
 	}
 
 	@Override
