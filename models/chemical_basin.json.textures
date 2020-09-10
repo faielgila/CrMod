@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "alemoniumblock",
+        "1": "urazeblock",
+        "2": "uracblock",
+        "missing": "pyriteblock"
+      },
+      "name": "default"
+    },
+    "chembasin": {
+      "map": {
+        "0": "chemical_basin_-_bottom",
+        "1": "chemical_basin_-_sides",
+        "2": "chemical_basin_-_top",
+        "missing": ""
+      },
+      "name": "chembasin"
+    }
+  }
+}

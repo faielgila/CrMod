@@ -52,7 +52,7 @@ public class ChemSodiumHydroxideItem extends CrmodModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("NaOH"));
+			list.add(new StringTextComponent("\u00A7oNaOH"));
 		}
 	}
 }

@@ -1,12 +1,11 @@
 {
-  "parent": "block/cube",
+  "parent": "crmod:custom/chemical_basin",
   "textures": {
-    "down": "crmod:blocks/chemical_basin_-_bottom",
-    "up": "crmod:blocks/chemical_basin_-_top",
-    "north": "crmod:blocks/chemical_basin_-_sides",
-    "east": "crmod:blocks/chemical_basin_-_sides",
-    "south": "crmod:blocks/chemical_basin_-_sides",
-    "west": "crmod:blocks/chemical_basin_-_sides",
-    "particle": "crmod:blocks/chemical_basin_-_bottom"
+    "all": "crmod:blocks/chemical_basin_-_bottom",
+    "particle": "crmod:blocks/chemical_basin_-_bottom",
+    "0": "crmod:blocks/chemical_basin_-_bottom",
+    "1": "crmod:blocks/chemical_basin_-_sides",
+    "2": "crmod:blocks/chemical_basin_-_top",
+    "missing": "crmod:blocks/"
   }
 }

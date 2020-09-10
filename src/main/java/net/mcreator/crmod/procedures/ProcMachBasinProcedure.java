@@ -58,7 +58,7 @@ public class ProcMachBasinProcedure extends CrmodModElements.ModElement {
 	public static void processItem (SlotHelper sltHlpr) {
 		System.out.println("Processing item...");
 		
-		// Salt Dust + Water Bucket -> Sodium Hydroxide Solution
+		// Sodium Hydroxide Production
 		if (sltHlpr.getItem(0) == Items.AIR && sltHlpr.getItem(1) == Items.AIR && sltHlpr.getItem(5) == Items.AIR) {
 			if (sltHlpr.getItem(2) == AnodeCathodeItem.block && sltHlpr.getItem(3) == DustSaltItem.block && sltHlpr.getItem(4) == DustSaltItem.block) {
 				if (sltHlpr.getItem(6) == Items.WATER_BUCKET) {
@@ -71,19 +71,7 @@ public class ProcMachBasinProcedure extends CrmodModElements.ModElement {
 			}
 		}
 		
-		// Thorite + Sodium Hydroxide Solution -> Thorium + TSP Solution
-		if (sltHlpr.getItem(3) == Items.AIR && sltHlpr.getItem(4) == Items.AIR && sltHlpr.getItem(5) == Items.AIR) {
-			if (sltHlpr.getItem(0) == ThoriteItem.block && sltHlpr.getItem(1) == ThoriteItem.block && sltHlpr.getItem(2) == ThoriteItem.block) {
-				if (sltHlpr.getItem(6) == ChemSodiumHydroxideItem.block) {
-					sltHlpr.increaseItemAmount(0, -1);
-					sltHlpr.increaseItemAmount(1, -1);
-					sltHlpr.increaseItemAmount(2, -1);
-					sltHlpr.increaseItemAmount(6, -1);
-					sltHlpr.setItemStack(10, new ItemStack(ThoriumItem.block, 2));
-					sltHlpr.setItemStack(11, new ItemStack(ChemTSPItem.block, 1));
-				}
-			}
-		}
+		// Thorite to Thorium Process
 		if (sltHlpr.getItem(0) == Items.AIR && sltHlpr.getItem(1) == Items.AIR && sltHlpr.getItem(2) == Items.AIR) {
 			if (sltHlpr.getItem(3) == ThoriteItem.block && sltHlpr.getItem(4) == ThoriteItem.block && sltHlpr.getItem(5) == ThoriteItem.block) {
 				if (sltHlpr.getItem(6) == ChemSodiumHydroxideItem.block) {
@@ -141,7 +129,6 @@ public class ProcMachBasinProcedure extends CrmodModElements.ModElement {
 				if (sltHlpr.getItem(6) == ChemHydrofluoricAcidItem.block) {
 					sltHlpr.increaseItemAmount(0, -1);
 					sltHlpr.increaseItemAmount(1, -1);
-					sltHlpr.increaseItemAmount(2, -1);
 					sltHlpr.increaseItemAmount(3, -1);
 					sltHlpr.increaseItemAmount(6, -1);
 					

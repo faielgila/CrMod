@@ -20,7 +20,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "NaOH"
+      "§oNaOH"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
