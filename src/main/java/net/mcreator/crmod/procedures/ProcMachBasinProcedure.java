@@ -165,6 +165,19 @@ public class ProcMachBasinProcedure extends CrmodModElements.ModElement {
 				}
 			}
 		}
+		// Beryllium Fluoride Production (Heliodor)
+		if (sltHlpr.getItem(0) == Items.AIR && sltHlpr.getItem(1) == Items.AIR && sltHlpr.getItem(2) == Items.AIR) {
+			if (sltHlpr.getItem(4) == Items.AIR && sltHlpr.getItem(5) == Items.AIR) {
+				if (sltHlpr.getItem(3) == GemBeryItem.block && sltHlpr.getItem(6) == ChemHydrofluoricAcidItem.block) {
+					sltHlpr.increaseItemAmount(3, -1);
+					sltHlpr.increaseItemAmount(6, -1);
+					
+					sltHlpr.setItemStack(9, new ItemStack(ChemKyaniteItem.block, 1));
+					sltHlpr.setItemStack(10, new ItemStack(ChemBerylliumFluorideItem.block, 1));
+					sltHlpr.setItemStack(11, new ItemStack(Items.GLASS_BOTTLE));
+				}
+			}
+		}
 		
 		// FLiBe Salt Production
 		if (sltHlpr.getItem(0) == Items.AIR && sltHlpr.getItem(1) == Items.AIR && sltHlpr.getItem(2) == Items.AIR) {

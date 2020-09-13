@@ -2154,150 +2154,6 @@
       "ids": {}
     },
     {
-      "name": "ProcAdvBlaze",
-      "type": "procedure",
-      "sortid": 291,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "AdvBlaze",
-      "type": "achievement",
-      "sortid": 292,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ProcAdvAlemonium",
-      "type": "procedure",
-      "sortid": 293,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "AdvAlemonium",
-      "type": "achievement",
-      "sortid": 294,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "AdvUrac",
-      "type": "achievement",
-      "sortid": 295,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ProcAdvUrac",
-      "type": "procedure",
-      "sortid": 296,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "AdvUraze",
-      "type": "achievement",
-      "sortid": 297,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ProcAdvUraze",
-      "type": "procedure",
-      "sortid": 298,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "AdvCarnotite",
-      "type": "achievement",
-      "sortid": 299,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ProcAdvCarnotite",
-      "type": "procedure",
-      "sortid": 300,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "AdvAtomicCore",
-      "type": "achievement",
-      "sortid": 301,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ProcAdvAtomicCore",
-      "type": "procedure",
-      "sortid": 302,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "RecTestOredict",
       "type": "recipe",
       "sortid": 303,
@@ -2743,6 +2599,175 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rec_chem_vanadium_pentoxide"
+    },
+    {
+      "name": "RecIngotCoprMala",
+      "type": "recipe",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_ingot_copr_mala"
+    },
+    {
+      "name": "RecIngotAlem",
+      "type": "recipe",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rec_ingot_alem"
+    },
+    {
+      "name": "AdvGrinder",
+      "type": "achievement",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_grinder"
+    },
+    {
+      "name": "AdvCopper",
+      "type": "achievement",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_copper"
+    },
+    {
+      "name": "AdvHammer",
+      "type": "achievement",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_hammer"
+    },
+    {
+      "name": "AdvLithium",
+      "type": "achievement",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_lithium"
+    },
+    {
+      "name": "AdvBasin",
+      "type": "achievement",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_basin"
+    },
+    {
+      "name": "AdvConnector",
+      "type": "achievement",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_connector"
+    },
+    {
+      "name": "AdvBattery",
+      "type": "achievement",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_battery"
+    },
+    {
+      "name": "AdvThorium",
+      "type": "achievement",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_thorium"
+    },
+    {
+      "name": "AdvHFAcid",
+      "type": "achievement",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_hf_acid"
+    },
+    {
+      "name": "ProcAdvHFAcid",
+      "type": "procedure",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "proc_adv_hf_acid",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvBeforeFLiBe",
+      "type": "achievement",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_before_f_li_be"
+    },
+    {
+      "name": "ProcAdvBeforeFLiBe",
+      "type": "procedure",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "proc_adv_before_f_li_be",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvFLiBe",
+      "type": "achievement",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_f_li_be"
+    },
+    {
+      "name": "AdvAtomicCore",
+      "type": "achievement",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_atomic_core"
+    },
+    {
+      "name": "AdvAtomicSplitter",
+      "type": "achievement",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_atomic_splitter"
     }
   ],
   "variable_elements": [],
@@ -2755,17 +2780,18 @@
       "item.crmod.elemna": "Sodium Atoms",
       "item.ingotstee.name": "Steel Ingot",
       "item.crmod.elemne": "Neon Atoms",
-      "block.crmod.orecarn": "Carnotite Ore",
       "item.crmod.dustcarn": "Carnotite Dust",
+      "block.crmod.orecarn": "Carnotite Ore",
       "item.elemau.name": "Gold Atoms",
       "item.crmod.chem_kyanite": "Kyanite",
+      "advancements.adv_hammer.title": "Ironing Out the Wrinkles",
       "item.battery.name": "Lithium-Ion Battery",
-      "item.pickaxealem.name": "Alemonium Pickaxe",
       "item.pickaxestee.name": "Steel Pickaxe",
-      "item.dustcarn.name": "Carnotite Dust",
-      "item.elemne.name": "Neon Atoms",
-      "item.crmod.ingotalem": "Alemonium Ingot",
+      "item.pickaxealem.name": "Alemonium Pickaxe",
       "item.crmod.pickaxealem": "Alemonium Pickaxe",
+      "item.crmod.ingotalem": "Alemonium Ingot",
+      "item.elemne.name": "Neon Atoms",
+      "item.dustcarn.name": "Carnotite Dust",
       "item.crmod.shoveluraz": "Uraze Shovel",
       "block.crmod.blockuraz": "Uraze Block",
       "item.crmod.sworduraz": "Uraze Sword",
@@ -2775,34 +2801,36 @@
       "item.crmod.carnotite": "Carnotite",
       "item.elempx.name": "Paradaxium Atoms",
       "item.crmod.plategold": "Gold Plate",
-      "advancements.advuraze.descr": "Make Uraze Alloy by mixing Urac and Blaze Dust",
+      "advancements.adv_grinder.descr": "Make a Handheld Grinder",
       "item.batteryused.name": "Empty Lithium-Ion Battery",
-      "item.platecopr.name": "Copper Plate",
       "item.crmod.axeblaz": "Blaze Axe",
+      "item.platecopr.name": "Copper Plate",
       "item.crmod.crystallith": "Lithium Crystal",
       "item.shovellead.name": "Lead Shovel",
       "item.crmod.platealem": "Alemonium Plate",
       "item.crmod.chem_hydrofluoric_acid": "Hydrofluoric Acid",
-      "advancements.advatomiccore.descr": "Craft the Atomic Core",
       "itemGroup.tabtab_chemicals": "CrMod Chemicals",
+      "advancements.adv_atomic_splitter.descr": "Make and place the Atomic Splitter",
       "item.shoveluraz.name": "Uraze Shovel",
       "item.axestee.name": "Steel Axe",
-      "item.elemcr.name": "Chromium Atoms",
       "item.elemb.name": "Boron Atoms",
+      "item.elemcr.name": "Chromium Atoms",
       "item.elemhe.name": "Helium Atoms",
       "tile.orepara.name": "Paradaxium Ore",
       "item.crmod.plateblaz": "Blaze Plate",
       "item.duststee.name": "Steel Dust",
       "item.ingoturac.name": "Urac Ingot",
-      "item.dustiron.name": "Iron Dust",
       "item.crmod.shovellead": "Lead Shovel",
-      "tile.orelith.name": "Lithium Ore",
+      "item.dustiron.name": "Iron Dust",
       "block.crmod.orechro": "Chromite Ore",
+      "tile.orelith.name": "Lithium Ore",
       "item.elembe.name": "Berylium Atoms",
+      "advancements.adv_connector.title": "Looks Like VGA, Must Be VGA",
       "block.crmod.blockcopr": "Copper Block",
       "item.crmod.elempb": "Lead Atoms",
       "block.crmod.orelead": "Lead Ore",
       "block.crmod.oresulf": "Sulfur Ore",
+      "advancements.adv_basin.descr": "Make and place a Chemical Basin",
       "item.crmod.dustsulfur": "Sulfur Dust",
       "tile.blockalem.name": "Alemonium Block",
       "item.crmod.axealem": "Alemonium Axe",
@@ -2813,7 +2841,6 @@
       "item.plateblaz.name": "Blaze Plate",
       "item.crmod.dustiron": "Iron Dust",
       "item.crmod.thorite": "Thorite",
-      "advancements.advatomiccore.title": "The Feynman Core",
       "tile.blocklead.name": "Lead Block",
       "item.dustazur.name": "Azurite Dust",
       "item.elemal.name": "Aluminum Atoms",
@@ -2826,12 +2853,12 @@
       "item.crmod.elempx": "Paradaxium Atoms",
       "item.axealem.name": "Alemonium Axe",
       "item.crmod.chem_f_li_be_salt": "Molten FLiBe Salt",
+      "advancements.adv_lithium.descr": "Get ahold of a Lithium Crystal",
       "item.elemwh.name": "Whelponium Atoms",
       "item.crmod.elem_th": "Thorium Atoms",
       "tile.orecarn.name": "Carnotite Ore",
       "item.crmod.duststee": "Steel Dust",
       "item.crmod.chem_sulfur_dioxide": "Sulfur Dioxide",
-      "advancements.advurac.descr": "Find Urac, the safer alternative to Lead",
       "item.crmod.axelead": "Lead Axe",
       "item.crmod.gemmala": "Malachite Gem",
       "block.crmod.orelith": "Lithium Ore",
@@ -2846,10 +2873,12 @@
       "item.crmod.crystal_fluo": "Fluorite",
       "item.dustmala.name": "Malachite Dust",
       "item.crmod.swordalem": "Alemonium Sword",
+      "advancements.adv_hammer.descr": "Make a Crafter\u0027s Hammer, then use it to make a Plate",
       "item.pyrolusite.name": "Pyrolusite",
       "item.crmod.ingotstee": "Steel Ingot",
       "item.crmod.pickaxeuraz": "Uraze Pickaxe",
       "item.crmod.dusturaz": "Uraze Dust",
+      "advancements.adv_f_li_be.descr": "Mix BeF and LiF to create Molten FLiBe Salt",
       "item.elems.name": "Sulfur Atoms",
       "item.crmod.chem_beryllium_fluoride": "Beryllium Fluoride",
       "item.crmod.dusturac": "Urac Dust",
@@ -2857,15 +2886,16 @@
       "item.crmod.swordblaz": "Blaze Sword",
       "item.crmod.coreatomic": "Atomic Core",
       "item.gembery.name": "Heliodor Gem",
-      "advancements.advurac.title": "Safer Than Lead",
       "item.elemsi.name": "Silicon Atoms",
+      "advancements.adv_lithium.title": "The Uses of Lithium",
       "item.crmod.chem_sulfur_trioxide": "Sulfur Trioxide",
       "item.plateuraz.name": "Uraze Plate",
+      "advancements.adv_hf_acid.title": "Gaseous Breakdown",
+      "advancements.adv_connector.descr": "Craft a Lithium Connector for a machine core",
       "itemGroup.tabtabtools": "CrMod Tools",
       "item.crmod.axeuraz": "Uraze Axe",
       "item.crmod.dustlead": "Lead Dust",
       "item.platelead.name": "Lead Plate",
-      "advancements.advcarnotite.descr": "Aquire some Carnotite, which contains Uranium",
       "item.crmod.dustcopr": "Copper Dust",
       "item.shovelblaz.name": "Blaze Shovel",
       "item.crystalpyrt.name": "Pyrite Crystal",
@@ -2877,6 +2907,7 @@
       "item.crmod.hammeriron": "Iron Crafter\u0027s Hammer",
       "item.dustsulfur.name": "Sulfur Dust",
       "tile.orelead.name": "Lead Ore",
+      "advancements.adv_before_f_li_be.title": "Precursor to FLiBe",
       "item.carnotite.name": "Carnotite",
       "item.dustbery.name": "Heliodor Dust",
       "block.crmod.mach_basin": "Chemical Basin",
@@ -2892,16 +2923,17 @@
       "item.gemmala.name": "Malachite Gem",
       "item.dustgold.name": "Gold Dust",
       "block.crmod.ore_fluo": "Fluorite Ore",
+      "advancements.adv_copper.descr": "Smelt Cuprite or Malachite Dust to make a Copper Ingot",
       "item.elemli.name": "Lithium Atoms",
       "item.elemn.name": "Nitrogen Atoms",
       "item.crmod.elemep": "Espicendium Atoms",
       "item.elemc.name": "Carbon Atoms",
       "item.gemparaunstable.name": "Unstable Paradaxium Gem",
       "item.platestee.name": "Steel Plate",
-      "advancements.advblaze.title": "From Flame to Metal",
       "item.axeuraz.name": "Uraze Axe",
       "item.ingotcopr.name": "Copper Ingot",
       "item.elemep.name": "Espicendium Atoms",
+      "advancements.adv_thorium.title": "Kinder Uranium",
       "item.crmod.platelead": "Lead Plate",
       "item.coreatomic.name": "Atomic Core",
       "item.crmod.dustmala": "Malachite Dust",
@@ -2910,18 +2942,23 @@
       "item.crmod.dustblaz": "Blaze Dust",
       "item.elemp.name": "Phosphorus Atoms",
       "block.crmod.blockstee": "Steel Block",
+      "advancements.adv_basin.title": "Chemicals in a Bowl",
       "item.platealem.name": "Alemonium Plate",
       "item.crmod.elemwh": "Whelponium Atoms",
       "item.crmod.shovelstee": "Steel Shovel",
       "item.crystallith.name": "Lithium Crystal",
+      "advancements.adv_hf_acid.descr": "Split Hydrofluoric Acid into Hydrogen and Fluorine Gas",
       "block.crmod.orealem": "Alemonium Ore",
       "item.crmod.dustalem": "Alemonium Dust",
       "item.crmod.batteryused": "Empty Lithium-Ion Battery",
       "block.crmod.orepyro": "Pyrolusite Ore",
+      "advancements.adv_battery.descr": "Craft a Lithium-Ion Battery to power a machine",
       "block.crmod.oremala": "Malachite Ore",
+      "advancements.adv_atomic_core.descr": "Use Connectors and Carnotite to make an Atomic Core",
       "item.crmod.elemfe": "Iron Atoms",
       "tile.blockcopr.name": "Copper Block",
       "item.swordalem.name": "Alemonium Sword",
+      "advancements.adv_atomic_splitter.title": "So Many Elements",
       "item.crmod.swordstee": "Steel Sword",
       "item.elemcu.name": "Copper Atoms",
       "item.crmod.ingotcopr": "Copper Ingot",
@@ -2938,7 +2975,6 @@
       "item.dustcupr.name": "Cuprite Dust",
       "item.crmod.ingotlead": "Lead Ingot",
       "itemGroup.tabtabbuildingblocks": "CrMod Building Blocks",
-      "advancements.advcarnotite.title": "Surprisingly Atomic",
       "item.crmod.elemv": "Vanadium Atoms",
       "item.crmod.elemu": "Uranium Atoms",
       "item.axeblaz.name": "Blaze Axe",
@@ -2947,7 +2983,6 @@
       "block.crmod.oresalt": "Salt Ore",
       "item.crmod.ingoturac": "Urac Ingot",
       "item.gemazur.name": "Azurite Gem",
-      "advancements.advuraze.title": "Heavy Alloy",
       "item.dusturaz.name": "Uraze Dust",
       "item.crmod.elemf": "Fluorine Atoms",
       "item.crmod.chem_anhydrite": "Anhydrite",
@@ -2955,7 +2990,7 @@
       "item.crmod.pickaxelead": "Lead Pickaxe",
       "item.crmod.elemh": "Hydrogen Atoms",
       "item.crmod.chem_vanadium_pentoxide": "Vanadium Pentoxide",
-      "advancements.advalemonium.descr": "Discover Alemonium Ore",
+      "advancements.adv_battery.title": "Limited Power!",
       "item.crmod.elemk": "Potassium Atoms",
       "item.crmod.elemhe": "Helium Atoms",
       "item.crmod.elemn": "Nitrogen Atoms",
@@ -2969,16 +3004,15 @@
       "item.crmod.dustbery": "Heliodor Dust",
       "item.crmod.elems": "Sulfur Atoms",
       "item.crmod.shovelalem": "Alemonium Shovel",
-      "advancements.advalemonium.title": "A New Chemical Element?",
       "item.crmod.elemau": "Gold Atoms",
       "item.crmod.chem_hydrogen": "Hydrogen Gas",
+      "advancements.adv_thorium.descr": "Process Thorite into pure Thorium using Sodium Hydroxide",
       "item.dustlead.name": "Lead Dust",
       "item.elemca.name": "Calcium Atoms",
       "item.elemmg.name": "Magnesium Atoms",
       "item.crmod.platestee": "Steel Plate",
       "item.plateiron.name": "Iron Plate",
       "item.shovelstee.name": "Steel Shovel",
-      "advancements.advblaze.descr": "Create a Blaze Ingot from smelting Blaze Powder",
       "item.crmod.plateiron": "Iron Plate",
       "item.crmod.elemal": "Aluminum Atoms",
       "item.crmod.elemar": "Argon Atoms",
@@ -2988,6 +3022,7 @@
       "item.crmod.elemag": "Silver Atoms",
       "block.crmod.machsplitter": "Atomic Splitter",
       "item.crmod.elemae": "Alemonium Atoms",
+      "advancements.adv_copper.title": "Aeris Regula",
       "item.axelead.name": "Lead Axe",
       "item.crystalsalt.name": "Salt Crystal",
       "itemGroup.tabtabmaterials": "CrMod Materials",
@@ -3027,6 +3062,7 @@
       "item.dustblaz.name": "Blaze Dust",
       "block.crmod.orecupr": "Cuprite Ore",
       "item.shovelalem.name": "Alemonium Shovel",
+      "advancements.adv_before_f_li_be.descr": "Create Beryllium Fluoride and Lithium Fluoride",
       "item.crmod.elemca": "Calcium Atoms",
       "item.ingoturaz.name": "Uraze Alloy Ingot",
       "tile.oresalt.name": "Salt Ore",
@@ -3037,10 +3073,13 @@
       "item.crmod.dustsalt": "Salt Dust",
       "tile.orechro.name": "Chromite Ore",
       "itemGroup.tabtabelements": "CrMod Elements",
+      "advancements.adv_atomic_core.title": "A Core Made With Carnotite",
       "item.crmod.shovelblaz": "Blaze Shovel",
       "itemGroup.tabtabelectronics": "CrMod Electronics",
       "tile.oremala.name": "Malachite Ore",
+      "advancements.adv_grinder.title": "A Crafter\u0027s Instrument",
       "item.crmod.gemparaunstable": "Unstable Paradaxium Gem",
+      "advancements.adv_f_li_be.title": "It is the FLiBe",
       "block.crmod.orebery": "Beryl Ore"
     }
   },

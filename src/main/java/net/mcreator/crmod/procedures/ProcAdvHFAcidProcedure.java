@@ -4,7 +4,6 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.MinecraftForge;
 
-import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
@@ -15,7 +14,8 @@ import net.minecraft.entity.Entity;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
-import net.mcreator.crmod.item.IngotUracItem;
+import net.mcreator.crmod.item.ChemHydrogenItem;
+import net.mcreator.crmod.item.ChemFluorineItem;
 import net.mcreator.crmod.CrmodModElements;
 
 import java.util.Map;
@@ -23,30 +23,27 @@ import java.util.Iterator;
 import java.util.HashMap;
 
 @CrmodModElements.ModElement.Tag
-public class ProcAdvUracProcedure extends CrmodModElements.ModElement {
-	public ProcAdvUracProcedure(CrmodModElements instance) {
-		super(instance, 296);
+public class ProcAdvHFAcidProcedure extends CrmodModElements.ModElement {
+	public ProcAdvHFAcidProcedure(CrmodModElements instance) {
+		super(instance, 339);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure ProcAdvUrac!");
+			System.err.println("Failed to load dependency entity for procedure ProcAdvHFAcid!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (((((entity instanceof ServerPlayerEntity) && (entity.world instanceof ServerWorld))
-				? ((ServerPlayerEntity) entity).getAdvancements()
-						.getProgress(((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
-								.getAdvancement(new ResourceLocation("crmod:advalemonium")))
-						.isDone()
+		if ((((entity instanceof PlayerEntity)
+				? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(ChemFluorineItem.block, (int) (1)))
 				: false)
 				&& ((entity instanceof PlayerEntity)
-						? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(IngotUracItem.block, (int) (1)))
+						? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(ChemHydrogenItem.block, (int) (1)))
 						: false))) {
 			if (entity instanceof ServerPlayerEntity) {
 				Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
-						.getAdvancement(new ResourceLocation("crmod:advurac"));
+						.getAdvancement(new ResourceLocation("crmod:adv_hf_acid"));
 				AdvancementProgress _ap = ((ServerPlayerEntity) entity).getAdvancements().getProgress(_adv);
 				if (!_ap.isDone()) {
 					Iterator _iterator = _ap.getRemaningCriteria().iterator();

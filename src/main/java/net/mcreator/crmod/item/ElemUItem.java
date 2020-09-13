@@ -36,7 +36,7 @@ public class ElemUItem extends CrmodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(TabElementsItemGroup.tab).maxStackSize(32));
+			super(new Item.Properties().group(TabElementsItemGroup.tab).maxStackSize(64));
 			setRegistryName("elemu");
 		}
 

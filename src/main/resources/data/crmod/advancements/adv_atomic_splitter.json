@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "crmod:machsplitter"
+    },
+    "title": {
+      "translate": "advancements.adv_atomic_splitter.title"
+    },
+    "description": {
+      "translate": "advancements.adv_atomic_splitter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "adv_atomic_splitter": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "item": "crmod:machsplitter"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "crmod:adv_atomic_core"
+}

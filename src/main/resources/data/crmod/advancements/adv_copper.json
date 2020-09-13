@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "crmod:ingotcopr"
+    },
+    "title": {
+      "translate": "advancements.adv_copper.title"
+    },
+    "description": {
+      "translate": "advancements.adv_copper.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "adv_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "crmod:ingotcopr",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "crmod:adv_grinder"
+}

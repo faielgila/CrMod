@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "crmod:battery"
+    },
+    "title": {
+      "translate": "advancements.adv_battery.title"
+    },
+    "description": {
+      "translate": "advancements.adv_battery.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "adv_battery": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "crmod:battery",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "crmod:adv_lithium"
+}

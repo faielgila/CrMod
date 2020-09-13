@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "item": "crmod:coreatomic"
+      "item": "crmod:chem_fluorine"
     },
     "title": {
-      "translate": "advancements.advatomiccore.title"
+      "translate": "advancements.adv_hf_acid.title"
     },
     "description": {
-      "translate": "advancements.advatomiccore.descr"
+      "translate": "advancements.adv_hf_acid.descr"
     },
     "frame": "task",
     "show_toast": true,
@@ -15,12 +15,12 @@
     "hidden": false
   },
   "criteria": {
-    "advatomiccore": {
+    "adv_hf_acid": {
       "trigger": "minecraft:impossible"
     }
   },
   "rewards": {
     "experience": 1
   },
-  "parent": "crmod:advcarnotite"
+  "parent": "crmod:adv_basin"
 }

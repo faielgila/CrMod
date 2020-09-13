@@ -14,7 +14,8 @@ import net.minecraft.entity.Entity;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
-import net.mcreator.crmod.item.IngotBlazItem;
+import net.mcreator.crmod.item.ChemLithiumFluorideItem;
+import net.mcreator.crmod.item.ChemBerylliumFluorideItem;
 import net.mcreator.crmod.CrmodModElements;
 
 import java.util.Map;
@@ -22,24 +23,27 @@ import java.util.Iterator;
 import java.util.HashMap;
 
 @CrmodModElements.ModElement.Tag
-public class ProcAdvBlazeProcedure extends CrmodModElements.ModElement {
-	public ProcAdvBlazeProcedure(CrmodModElements instance) {
-		super(instance, 291);
+public class ProcAdvBeforeFLiBeProcedure extends CrmodModElements.ModElement {
+	public ProcAdvBeforeFLiBeProcedure(CrmodModElements instance) {
+		super(instance, 341);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure ProcAdvBlaze!");
+			System.err.println("Failed to load dependency entity for procedure ProcAdvBeforeFLiBe!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (((entity instanceof PlayerEntity)
-				? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(IngotBlazItem.block, (int) (1)))
-				: false)) {
+		if ((((entity instanceof PlayerEntity)
+				? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(ChemLithiumFluorideItem.block, (int) (1)))
+				: false)
+				&& ((entity instanceof PlayerEntity)
+						? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(ChemBerylliumFluorideItem.block, (int) (1)))
+						: false))) {
 			if (entity instanceof ServerPlayerEntity) {
 				Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
-						.getAdvancement(new ResourceLocation("crmod:advblaze"));
+						.getAdvancement(new ResourceLocation("crmod:adv_before_f_li_be"));
 				AdvancementProgress _ap = ((ServerPlayerEntity) entity).getAdvancements().getProgress(_adv);
 				if (!_ap.isDone()) {
 					Iterator _iterator = _ap.getRemaningCriteria().iterator();

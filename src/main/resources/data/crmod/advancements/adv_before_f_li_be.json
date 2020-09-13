@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "item": "crmod:ingoturac"
+      "item": "crmod:chem_lithium_fluoride"
     },
     "title": {
-      "translate": "advancements.advurac.title"
+      "translate": "advancements.adv_before_f_li_be.title"
     },
     "description": {
-      "translate": "advancements.advurac.descr"
+      "translate": "advancements.adv_before_f_li_be.descr"
     },
     "frame": "task",
     "show_toast": true,
@@ -15,12 +15,12 @@
     "hidden": false
   },
   "criteria": {
-    "advurac": {
+    "adv_before_f_li_be": {
       "trigger": "minecraft:impossible"
     }
   },
   "rewards": {
     "experience": 1
   },
-  "parent": "crmod:advblaze"
+  "parent": "crmod:adv_hf_acid"
 }

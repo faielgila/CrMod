@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "crmod:mach_basin"
+    },
+    "title": {
+      "translate": "advancements.adv_basin.title"
+    },
+    "description": {
+      "translate": "advancements.adv_basin.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "adv_basin": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "item": "crmod:mach_basin"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "crmod:adv_hammer"
+}

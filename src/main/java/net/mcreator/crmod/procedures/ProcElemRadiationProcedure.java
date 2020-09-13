@@ -25,8 +25,6 @@ public class ProcElemRadiationProcedure extends CrmodModElements.ModElement {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
-		for (int index0 = 0; index0 < (int) ((((itemstack)).getCount())); index0++) {
-			entity.attackEntityFrom(DamageSource.GENERIC, (float) 0.1);
-		}
+		entity.attackEntityFrom(DamageSource.GENERIC, (float) (0.1 * (((itemstack)).getCount())));
 	}
 }

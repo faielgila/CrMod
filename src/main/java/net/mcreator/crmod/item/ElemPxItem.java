@@ -32,7 +32,7 @@ public class ElemPxItem extends CrmodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(TabElementsItemGroup.tab).maxStackSize(16));
+			super(new Item.Properties().group(TabElementsItemGroup.tab).maxStackSize(64));
 			setRegistryName("elempx");
 		}
 
