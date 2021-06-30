@@ -3,6 +3,7 @@ package net.mcreator.crmod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
@@ -15,7 +16,7 @@ public class CoreAtomicItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:coreatomic")
 	public static final Item block = null;
 	public CoreAtomicItem(CrmodModElements instance) {
-		super(instance, 96);
+		super(instance, 94);
 	}
 
 	@Override
@@ -24,7 +25,7 @@ public class CoreAtomicItem extends CrmodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(TabElectronicsItemGroup.tab).maxStackSize(8));
+			super(new Item.Properties().group(TabElectronicsItemGroup.tab).maxStackSize(8).rarity(Rarity.COMMON));
 			setRegistryName("coreatomic");
 		}
 

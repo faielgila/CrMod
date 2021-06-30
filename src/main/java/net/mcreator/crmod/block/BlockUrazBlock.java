@@ -31,7 +31,7 @@ public class BlockUrazBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:blockuraz")
 	public static final Block block = null;
 	public BlockUrazBlock(CrmodModElements instance) {
-		super(instance, 25);
+		super(instance, 24);
 	}
 
 	@Override
@@ -64,6 +64,7 @@ public class BlockUrazBlock extends CrmodModElements.ModElement {
 
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			;
 			return this.getDefaultState().with(FACING, context.getNearestLookingDirection().getOpposite());
 		}
 

@@ -3,6 +3,7 @@ package net.mcreator.crmod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
@@ -15,7 +16,7 @@ public class DustMalaItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:dustmala")
 	public static final Item block = null;
 	public DustMalaItem(CrmodModElements instance) {
-		super(instance, 53);
+		super(instance, 52);
 	}
 
 	@Override
@@ -24,7 +25,7 @@ public class DustMalaItem extends CrmodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(TabMaterialsItemGroup.tab).maxStackSize(64));
+			super(new Item.Properties().group(TabMaterialsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("dustmala");
 		}
 

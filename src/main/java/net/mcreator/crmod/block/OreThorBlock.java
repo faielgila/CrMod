@@ -45,7 +45,7 @@ public class OreThorBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:ore_thor")
 	public static final Block block = null;
 	public OreThorBlock(CrmodModElements instance) {
-		super(instance, 16);
+		super(instance, 15);
 	}
 
 	@Override

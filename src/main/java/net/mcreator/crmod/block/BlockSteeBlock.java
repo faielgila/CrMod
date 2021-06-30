@@ -24,7 +24,7 @@ public class BlockSteeBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:blockstee")
 	public static final Block block = null;
 	public BlockSteeBlock(CrmodModElements instance) {
-		super(instance, 23);
+		super(instance, 22);
 	}
 
 	@Override

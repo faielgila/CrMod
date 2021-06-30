@@ -39,7 +39,7 @@ public class OrePyrtBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:orepyrt")
 	public static final Block block = null;
 	public OrePyrtBlock(CrmodModElements instance) {
-		super(instance, 12);
+		super(instance, 11);
 	}
 
 	@Override

@@ -3,6 +3,7 @@ package net.mcreator.crmod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
@@ -15,7 +16,7 @@ public class PlateSteeItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:platestee")
 	public static final Item block = null;
 	public PlateSteeItem(CrmodModElements instance) {
-		super(instance, 61);
+		super(instance, 59);
 	}
 
 	@Override
@@ -24,7 +25,7 @@ public class PlateSteeItem extends CrmodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(TabMaterialsItemGroup.tab).maxStackSize(64));
+			super(new Item.Properties().group(TabMaterialsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("platestee");
 		}
 

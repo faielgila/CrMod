@@ -38,7 +38,7 @@ public class OreUracBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:oreurac")
 	public static final Block block = null;
 	public OreUracBlock(CrmodModElements instance) {
-		super(instance, 17);
+		super(instance, 16);
 	}
 
 	@Override

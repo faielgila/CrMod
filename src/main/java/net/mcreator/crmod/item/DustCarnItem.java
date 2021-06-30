@@ -4,6 +4,7 @@ package net.mcreator.crmod.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.World;
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.Entity;
@@ -21,7 +22,7 @@ public class DustCarnItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:dustcarn")
 	public static final Item block = null;
 	public DustCarnItem(CrmodModElements instance) {
-		super(instance, 41);
+		super(instance, 40);
 	}
 
 	@Override
@@ -30,7 +31,7 @@ public class DustCarnItem extends CrmodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(TabMaterialsItemGroup.tab).maxStackSize(64));
+			super(new Item.Properties().group(TabMaterialsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("dustcarn");
 		}
 

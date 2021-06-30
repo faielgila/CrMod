@@ -24,7 +24,7 @@ public class BlockBlazBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:blockblaz")
 	public static final Block block = null;
 	public BlockBlazBlock(CrmodModElements instance) {
-		super(instance, 19);
+		super(instance, 18);
 	}
 
 	@Override

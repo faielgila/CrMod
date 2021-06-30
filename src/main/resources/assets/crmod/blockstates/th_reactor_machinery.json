@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "crmod:block/th_reactor_machinery"
+    },
+    "facing=east": {
+      "model": "crmod:block/th_reactor_machinery",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "crmod:block/th_reactor_machinery",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "crmod:block/th_reactor_machinery",
+      "y": 270
+    }
+  }
+}

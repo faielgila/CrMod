@@ -39,7 +39,7 @@ public class OreSaltBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:oresalt")
 	public static final Block block = null;
 	public OreSaltBlock(CrmodModElements instance) {
-		super(instance, 14);
+		super(instance, 13);
 	}
 
 	@Override

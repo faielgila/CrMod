@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "crmod:blocks/beryllium_copper_block",
+    "particle": "crmod:blocks/beryllium_copper_block"
+  }
+}

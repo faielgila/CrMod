@@ -3,6 +3,7 @@ package net.mcreator.crmod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
@@ -15,7 +16,7 @@ public class HammerIronItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:hammeriron")
 	public static final Item block = null;
 	public HammerIronItem(CrmodModElements instance) {
-		super(instance, 71);
+		super(instance, 69);
 	}
 
 	@Override
@@ -24,7 +25,7 @@ public class HammerIronItem extends CrmodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(TabToolsItemGroup.tab).maxStackSize(2));
+			super(new Item.Properties().group(TabToolsItemGroup.tab).maxStackSize(2).rarity(Rarity.COMMON));
 			setRegistryName("hammeriron");
 		}
 

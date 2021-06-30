@@ -1,0 +1,42 @@
+{
+  "group": "crmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "crmod:ingot_be_cu"
+    },
+    "1": {
+      "item": "crmod:ingot_be_cu"
+    },
+    "2": {
+      "item": "crmod:ingot_be_cu"
+    },
+    "3": {
+      "item": "crmod:ingot_be_cu"
+    },
+    "4": {
+      "item": "crmod:ingot_be_cu"
+    },
+    "5": {
+      "item": "crmod:ingot_be_cu"
+    },
+    "6": {
+      "item": "crmod:ingot_be_cu"
+    },
+    "7": {
+      "item": "crmod:ingot_be_cu"
+    },
+    "8": {
+      "item": "crmod:ingot_be_cu"
+    }
+  },
+  "result": {
+    "item": "crmod:block_be_cu",
+    "count": 1
+  }
+}

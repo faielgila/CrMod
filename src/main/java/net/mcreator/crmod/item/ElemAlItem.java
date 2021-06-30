@@ -6,6 +6,7 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
@@ -21,7 +22,7 @@ public class ElemAlItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:elemal")
 	public static final Item block = null;
 	public ElemAlItem(CrmodModElements instance) {
-		super(instance, 113);
+		super(instance, 114);
 	}
 
 	@Override
@@ -30,7 +31,7 @@ public class ElemAlItem extends CrmodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(TabElementsItemGroup.tab).maxStackSize(64));
+			super(new Item.Properties().group(TabElementsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("elemal");
 		}
 

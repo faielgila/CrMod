@@ -16,7 +16,7 @@ public class ShovelLeadItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:shovellead")
 	public static final Item block = null;
 	public ShovelLeadItem(CrmodModElements instance) {
-		super(instance, 84);
+		super(instance, 82);
 	}
 
 	@Override

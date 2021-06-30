@@ -6,6 +6,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.Entity;
@@ -23,7 +24,7 @@ public class ElemPxItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:elempx")
 	public static final Item block = null;
 	public ElemPxItem(CrmodModElements instance) {
-		super(instance, 132);
+		super(instance, 133);
 	}
 
 	@Override
@@ -32,7 +33,7 @@ public class ElemPxItem extends CrmodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(TabElementsItemGroup.tab).maxStackSize(64));
+			super(new Item.Properties().group(TabElementsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("elempx");
 		}
 

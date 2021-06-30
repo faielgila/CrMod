@@ -8,6 +8,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.Entity;
@@ -27,7 +28,7 @@ public class ElemThItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:elem_th")
 	public static final Item block = null;
 	public ElemThItem(CrmodModElements instance) {
-		super(instance, 129);
+		super(instance, 130);
 	}
 
 	@Override
@@ -36,7 +37,7 @@ public class ElemThItem extends CrmodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(TabElementsItemGroup.tab).maxStackSize(64));
+			super(new Item.Properties().group(TabElementsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("elem_th");
 		}
 

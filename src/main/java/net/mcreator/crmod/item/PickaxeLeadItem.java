@@ -16,7 +16,7 @@ public class PickaxeLeadItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:pickaxelead")
 	public static final Item block = null;
 	public PickaxeLeadItem(CrmodModElements instance) {
-		super(instance, 82);
+		super(instance, 80);
 	}
 
 	@Override

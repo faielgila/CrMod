@@ -5,22 +5,25 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.crmod.CrmodModElements;
+import net.mcreator.crmod.CrmodMod;
 
 import java.util.Map;
 
 @CrmodModElements.ModElement.Tag
 public class ProcElemRadiationProcedure extends CrmodModElements.ModElement {
 	public ProcElemRadiationProcedure(CrmodModElements instance) {
-		super(instance, 233);
+		super(instance, 231);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure ProcElemRadiation!");
+			if (!dependencies.containsKey("entity"))
+				CrmodMod.LOGGER.warn("Failed to load dependency entity for procedure ProcElemRadiation!");
 			return;
 		}
 		if (dependencies.get("itemstack") == null) {
-			System.err.println("Failed to load dependency itemstack for procedure ProcElemRadiation!");
+			if (!dependencies.containsKey("itemstack"))
+				CrmodMod.LOGGER.warn("Failed to load dependency itemstack for procedure ProcElemRadiation!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

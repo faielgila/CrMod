@@ -1,11 +1,12 @@
 {
-  "_fv": 10,
+  "_fv": 18,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "handheld_grinder",
     "customModelName": "Normal",
     "name": "Handheld Grinder",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:TabTools"
     },
@@ -15,6 +16,7 @@
     "toolType": 1.0,
     "damageCount": 0,
     "destroyAnyBlock": false,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": true,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,

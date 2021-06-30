@@ -126,11 +126,11 @@ public class ProcMachSplitterNewProcedure extends CrmodModElements.ModElement {
 		
 		
 		/// Bloc C
-		// Copper
-		if (itemIn == IngotCoprItem.block) return new Item[] {ElemCuItem.block};
-		if (itemIn == BlockCoprBlock.block.asItem()) return new Item[] {ElemCuItem.block};
-		if (itemIn == DustCoprItem.block) return new Item[] {ElemCuItem.block};
-		if (itemIn == PlateCoprItem.block) return new Item[] {ElemCuItem.block};
+		// Beryllium Copper
+		if (itemIn == IngotBeCuItem.block) return new Item[] {ElemCuItem.block, ElemBeItem.block};
+		if (itemIn == BlockBeCuBlock.block.asItem()) return new Item[] {ElemCuItem.block, ElemBeItem.block};
+		if (itemIn == DustBeCuItem.block) return new Item[] {ElemCuItem.block, ElemBeItem.block};
+		if (itemIn == PlateBeCuItem.block) return new Item[] {ElemCuItem.block, ElemBeItem.block};
 		
 		// Cuprite
 		if (itemIn == OreCuprBlock.block.asItem()) return new Item[] {ElemOItem.block};
@@ -159,11 +159,7 @@ public class ProcMachSplitterNewProcedure extends CrmodModElements.ModElement {
 		if (itemIn == DustMalaItem.block) return new Item[] {ElemCuItem.block, ElemOItem.block};
 		
 		
-		/// Bloc D
-		// Paradaxium
-		if (itemIn == OreParaBlock.block.asItem()) return new Item[] {ElemPxItem.block, ElemOItem.block};
-		if (itemIn == GemParaUnstableItem.block) return new Item[] {ElemPxItem.block};
-		
+		/// Bloc D		
 		// Pyrite
 		if (itemIn == OrePyrtBlock.block.asItem()) return new Item[] {ElemFeItem.block, ElemSItem.block, ElemOItem.block};
 		if (itemIn == CrystalPyrtItem.block) return new Item[] {ElemFeItem.block, ElemSItem.block};
@@ -281,11 +277,11 @@ public class ProcMachSplitterNewProcedure extends CrmodModElements.ModElement {
 		
 		
 		/// Bloc C
-		// Copper
-		if (itemIn == IngotCoprItem.block) return new int[] {4};
-		if (itemIn == BlockCoprBlock.block.asItem()) return new int[] {36};
-		if (itemIn == DustCoprItem.block) return new int[] {4};
-		if (itemIn == PlateCoprItem.block) return new int[] {4};
+		// Beryllium Copper
+		if (itemIn == IngotBeCuItem.block) return new int[] {4, 1};
+		if (itemIn == BlockBeCuBlock.block.asItem()) return new int[] {36, 9};
+		if (itemIn == DustBeCuItem.block) return new int[] {4, 1};
+		if (itemIn == PlateBeCuItem.block) return new int[] {4, 1};
 		
 		// Cuprite
 		if (itemIn == OreCuprBlock.block.asItem()) return new int[] {4};
@@ -315,10 +311,6 @@ public class ProcMachSplitterNewProcedure extends CrmodModElements.ModElement {
 		
 		
 		/// Bloc D
-		// Paradaxium
-		if (itemIn == OreParaBlock.block.asItem()) return new int[] {2, 2};
-		if (itemIn == GemParaUnstableItem.block) return new int[] {4};
-		
 		// Pyrite
 		if (itemIn == OrePyrtBlock.block.asItem()) return new int[] {1, 1, 2};
 		if (itemIn == CrystalPyrtItem.block) return new int[] {3, 1};

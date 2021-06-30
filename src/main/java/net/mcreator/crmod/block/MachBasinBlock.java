@@ -77,7 +77,7 @@ public class MachBasinBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:mach_basin")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public MachBasinBlock(CrmodModElements instance) {
-		super(instance, 94);
+		super(instance, 92);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -132,6 +132,7 @@ public class MachBasinBlock extends CrmodModElements.ModElement {
 
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			;
 			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
 		}
 

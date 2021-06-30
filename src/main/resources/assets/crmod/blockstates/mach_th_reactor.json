@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "crmod:block/mach_th_reactor"
+    },
+    "facing=east": {
+      "model": "crmod:block/mach_th_reactor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "crmod:block/mach_th_reactor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "crmod:block/mach_th_reactor",
+      "y": 270
+    }
+  }
+}

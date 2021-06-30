@@ -1,5 +1,5 @@
 {
-  "_fv": 10,
+  "_fv": 18,
   "_type": "tool",
   "definition": {
     "renderType": 0,
@@ -19,6 +19,7 @@
     "usageCount": 500,
     "blocksAffected": [],
     "hasGlow": false,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

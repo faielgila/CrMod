@@ -17,6 +17,7 @@ import net.minecraft.advancements.Advancement;
 import net.mcreator.crmod.item.ChemHydrogenItem;
 import net.mcreator.crmod.item.ChemFluorineItem;
 import net.mcreator.crmod.CrmodModElements;
+import net.mcreator.crmod.CrmodMod;
 
 import java.util.Map;
 import java.util.Iterator;
@@ -25,13 +26,14 @@ import java.util.HashMap;
 @CrmodModElements.ModElement.Tag
 public class ProcAdvHFAcidProcedure extends CrmodModElements.ModElement {
 	public ProcAdvHFAcidProcedure(CrmodModElements instance) {
-		super(instance, 339);
+		super(instance, 265);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure ProcAdvHFAcid!");
+			if (!dependencies.containsKey("entity"))
+				CrmodMod.LOGGER.warn("Failed to load dependency entity for procedure ProcAdvHFAcid!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

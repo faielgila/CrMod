@@ -6,6 +6,7 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
@@ -21,7 +22,7 @@ public class ChemAnhydriteItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:chem_anhydrite")
 	public static final Item block = null;
 	public ChemAnhydriteItem(CrmodModElements instance) {
-		super(instance, 142);
+		super(instance, 143);
 	}
 
 	@Override
@@ -30,7 +31,7 @@ public class ChemAnhydriteItem extends CrmodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(TabChemicalsItemGroup.tab).maxStackSize(64));
+			super(new Item.Properties().group(TabChemicalsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("chem_anhydrite");
 		}
 

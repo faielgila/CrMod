@@ -1,0 +1,9 @@
+{
+  "parent": "crmod:custom/machinery_frame",
+  "textures": {
+    "all": "crmod:blocks/wireframe",
+    "particle": "crmod:blocks/wireframe",
+    "4": "crmod:blocks/wireframe",
+    "missing": "crmod:blocks/"
+  }
+}

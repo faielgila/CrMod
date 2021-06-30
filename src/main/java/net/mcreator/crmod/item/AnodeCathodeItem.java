@@ -6,6 +6,7 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
@@ -21,7 +22,7 @@ public class AnodeCathodeItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:anode_cathode")
 	public static final Item block = null;
 	public AnodeCathodeItem(CrmodModElements instance) {
-		super(instance, 100);
+		super(instance, 98);
 	}
 
 	@Override
@@ -30,7 +31,7 @@ public class AnodeCathodeItem extends CrmodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(TabElectronicsItemGroup.tab).maxStackSize(8));
+			super(new Item.Properties().group(TabElectronicsItemGroup.tab).maxStackSize(8).rarity(Rarity.COMMON));
 			setRegistryName("anode_cathode");
 		}
 

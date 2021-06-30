@@ -3,6 +3,7 @@ package net.mcreator.crmod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
@@ -15,7 +16,7 @@ public class LithiumConnectorItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:lithiumconnector")
 	public static final Item block = null;
 	public LithiumConnectorItem(CrmodModElements instance) {
-		super(instance, 95);
+		super(instance, 93);
 	}
 
 	@Override
@@ -24,7 +25,7 @@ public class LithiumConnectorItem extends CrmodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(TabElectronicsItemGroup.tab).maxStackSize(16));
+			super(new Item.Properties().group(TabElectronicsItemGroup.tab).maxStackSize(16).rarity(Rarity.COMMON));
 			setRegistryName("lithiumconnector");
 		}
 

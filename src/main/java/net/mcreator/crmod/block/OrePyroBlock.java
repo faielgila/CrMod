@@ -39,7 +39,7 @@ public class OrePyroBlock extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:orepyro")
 	public static final Block block = null;
 	public OrePyroBlock(CrmodModElements instance) {
-		super(instance, 13);
+		super(instance, 12);
 	}
 
 	@Override

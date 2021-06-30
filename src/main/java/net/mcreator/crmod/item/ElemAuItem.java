@@ -3,6 +3,7 @@ package net.mcreator.crmod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
@@ -15,7 +16,7 @@ public class ElemAuItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:elemau")
 	public static final Item block = null;
 	public ElemAuItem(CrmodModElements instance) {
-		super(instance, 127);
+		super(instance, 128);
 	}
 
 	@Override
@@ -24,7 +25,7 @@ public class ElemAuItem extends CrmodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(TabElementsItemGroup.tab).maxStackSize(64));
+			super(new Item.Properties().group(TabElementsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("elemau");
 		}
 

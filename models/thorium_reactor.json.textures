@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lead_block",
+        "1": "hopper",
+        "2": "display",
+        "3": "panel",
+        "4": "wireframe",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

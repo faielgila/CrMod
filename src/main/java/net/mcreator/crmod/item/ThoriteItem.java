@@ -4,6 +4,7 @@ package net.mcreator.crmod.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.World;
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.Entity;
@@ -21,7 +22,7 @@ public class ThoriteItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:thorite")
 	public static final Item block = null;
 	public ThoriteItem(CrmodModElements instance) {
-		super(instance, 64);
+		super(instance, 62);
 	}
 
 	@Override
@@ -30,7 +31,7 @@ public class ThoriteItem extends CrmodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(TabMaterialsItemGroup.tab).maxStackSize(64));
+			super(new Item.Properties().group(TabMaterialsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("thorite");
 		}
 

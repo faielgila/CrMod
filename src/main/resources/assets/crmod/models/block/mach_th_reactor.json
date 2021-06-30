@@ -1,0 +1,13 @@
+{
+  "parent": "crmod:custom/thorium_reactor",
+  "textures": {
+    "all": "crmod:blocks/display",
+    "particle": "crmod:blocks/display",
+    "0": "crmod:blocks/lead_block",
+    "1": "crmod:blocks/hopper",
+    "2": "crmod:blocks/display",
+    "3": "crmod:blocks/panel",
+    "4": "crmod:blocks/wireframe",
+    "missing": "crmod:blocks/"
+  }
+}

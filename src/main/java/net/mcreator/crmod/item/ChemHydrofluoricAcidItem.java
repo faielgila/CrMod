@@ -6,6 +6,7 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
@@ -21,7 +22,7 @@ public class ChemHydrofluoricAcidItem extends CrmodModElements.ModElement {
 	@ObjectHolder("crmod:chem_hydrofluoric_acid")
 	public static final Item block = null;
 	public ChemHydrofluoricAcidItem(CrmodModElements instance) {
-		super(instance, 143);
+		super(instance, 144);
 	}
 
 	@Override
@@ -30,7 +31,7 @@ public class ChemHydrofluoricAcidItem extends CrmodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(TabChemicalsItemGroup.tab).maxStackSize(1));
+			super(new Item.Properties().group(TabChemicalsItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
 			setRegistryName("chem_hydrofluoric_acid");
 		}
 
